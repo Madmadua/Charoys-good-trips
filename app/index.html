@@ -8,10 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!--<link href="bower_components/jquery-ui/themes/blitzer/jquery-ui.css" rel="stylesheet">-->
     <link href="css/jquery-ui/jquery-ui-1.10.3.custom.css" rel="stylesheet">
-
     <link href="css/style.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,9 +19,10 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
   </head>
 
-  <body ng-controller="cgtCtrl" onload="initialiser()">
+  <body ng-controller="cgtCtrl">
 
     <header role="banner" class="navbar navbar-fixed-top navbar-default">
       <div class="container">
@@ -57,6 +57,7 @@
     </header>
 
 
+    <!-- Container -->
     <div class="container">
 
       <div ng-controller="cRessource">
@@ -84,56 +85,88 @@
 
         </div>
         
-
       </div>
       
 
-      <div class="row">
-        <div class="col-lg-12 Sb">
-
-          <form class="form-inline" role="form" ng-submit="search()">
-
-            <div class="form-group">
-              <label class="sr-only" for="search_location">Where do you want to go ?</label>
-              <input type="text" class="form-control" id="search_location" ng-model="search_location" placeholder="Where do you want to go ?" autocomplete="off">
-            </div>
-
-            <div class="form-group">
-              <label class="sr-only" for="search_check_in">Check in</label>
-              <input type="text" class="form-control" id="search_check_in" ng-model="search_check_in" placeholder="Check in" autocomplete="off">
-            </div>
-
-            <div class="form-group">
-              <label class="sr-only" for="search_check_out">Check out</label>
-              <input type="text" class="form-control" id="search_check_out" ng-model="search_check_out" placeholder="Check out" autocomplete="off">
-            </div>
-
-            <div class="form-group">
-              <label class="sr-only" for="search_nb_guest">Nb. Guests</label>
-              <input type="text" class="form-control" id="search_nb_guest" ng-model="search_nb_guest" placeholder="Nb. Guests" autocomplete="off">
-            </div>
-
-            <button type="submit" class="btn btn-default">Search</button>
-          </form>
-
-
-		<div class="destination">
-			<div class="header-destination">
-			City : {{search_location}}, Date : , People :  
-			</div>
-			<div id="carte" style="width:100%; height:400px"></div>
-		</div>
-		<div class="voyage_voiture block Ue" ng-class="{cache : !search_location}">
-			<img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
-			<span>Voyager en voiture</span>
-			<button class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
-		</div>
-		<div id="EmplacementItineraireCarte" class="cache"></div>
-		<div id="EmplacementItineraireTexte" ng-class="{cache : !details}"></div>
-        <div ng-repeat="item in items" class="block Ue">
-          <div class="page-header">
-            {{item.typeAlias.propType}} in {{item.origin}}, {{item.country}} for {{item.occupancy}} people
+      <!-- Search Menu -->
+      <div class="row cgt-block cgt-block-gris">
+        <form role="form" ng-submit="search()">
+          <div class="col-lg-4">
+            <input type="text" class="form-control input-lg" id="search_location" ng-model="search_location" placeholder="Where do you want to go ?" autocomplete="off" />
           </div>
+
+          <div class="col-lg-2">
+            <div class="input-group">
+              <input type="text" class="form-control input-lg" id="search_check_in" ng-model="search_check_in" placeholder="Check in" autocomplete="off" />
+              <span class="input-group-addon glyphicon glyphicon-calendar"></span>
+            </div>            
+          </div>
+
+          <div class="col-lg-2">
+            <div class="input-group">
+              <input type="text" class="form-control input-lg" id="search_check_out" ng-model="search_check_out" placeholder="Check out" autocomplete="off" />
+              <span class="input-group-addon glyphicon glyphicon-calendar"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <select class="form-control input-lg" id="search_nb_guest" ng-init="search_nb_guests=1" ng-model="search_nb_guests">
+              <option value="1">1 guest</option>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+              <option value="4">4 guests</option>
+              <option value="5">5 guests</option>
+              <option value="6">6 guests</option>
+              <option value="7">7 guests</option>
+              <option value="8">8 guests</option>
+              <option value="9">9 guests</option>
+              <option value="10">10 guests</option>
+              <option value="11">11 guests</option>
+              <option value="12">12 guests</option>
+              <option value="13">13 guests</option>
+              <option value="14">14 guests</option>
+              <option value="15">15 guests</option>
+              <option value="16">16+ guests</option>
+            </select>
+          </div>
+
+          <div class="col-lg-2">
+            <input type="submit" class="hidden">
+            <button type="button" ng-click="search()" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-search"></span> Search</button>
+          </div>
+        </form>
+      </div>
+      <!-- /Search Menu -->
+
+
+      <!-- Google Map -->
+      <div class="row">
+        <div class="cgt-block cgt-block-blanc">
+          <div class="col-lg-12">
+            <div id="cgt-gl-map" style="width:100%; height:400px"></div>
+          </div>
+        </div>
+      </div>
+      <!-- /Google Map -->
+		<div class="header-destination row cgt-block cgt-block-gris">
+			City : {{search_location}}, Date : , People :  
+		</div>
+		<div class="row">
+			<div class="voyage_voiture block Ue cgt-block cgt-block-blanc" ng-class="{cache : !search_location}">
+				<img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
+				<span>Voyager en voiture</span>
+				<button class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
+				<div id="EmplacementItineraireCarte" class="cache"></div>
+				<div id="EmplacementItineraireTexte" ng-class="{cache : !details}"></div>
+			</div>
+		</div>
+      <!-- Template Item -->
+      <div class="row">
+        <div ng-repeat="item in items" class="cgt-block cgt-block-blanc">
+          <div class="col-lg-12">
+            <div class="page-header">
+              {{item.typeAlias.propType}} in {{item.origin}}, {{item.country}} for {{item.occupancy}} people
+            </div>
 		  <div class="page-container">
 			<img src="{{item.photos[0].url}}" alt="" class="img-container"/>
 			<div class="desc-container">
@@ -153,8 +186,10 @@
 		  </div>
         </div>
       </div>
-    </div>
+      <!-- /Template Item -->
 
+    </div>
+    <!-- /Container -->
 
 
 
@@ -165,8 +200,14 @@
 
 
     <script>
-      $('#search_check_in').datepicker();
-      $('#search_check_out').datepicker();
+      $('#search_check_in').datepicker({
+        minDate: 0,
+        numberOfMonths: 2
+      });
+      $('#search_check_out').datepicker({
+        minDate: 0,
+        numberOfMonths: 2
+      });
     </script>
 
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -253,5 +294,38 @@
 		}
 		google.maps.event.addDomListener(window, 'load', initialisation)
 	</script>
+
+    <script>
+    (function() {
+
+
+
+
+      var options = {
+        zoom: 5,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+
+      var geo = new google.maps.Geocoder();
+      var map = new google.maps.Map(document.getElementById('cgt-gl-map'), options);
+    
+      var city = 'Paris';      
+
+      geo.geocode({
+        'address': city
+      },
+      function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+          map.setCenter(results[0].geometry.location);
+
+          var marker = new google.maps.Marker({
+            map: map,
+            position: results[0].geometry.location
+          });
+        }
+      });
+
+    })();
+    </script>
   </body>
 </html>
