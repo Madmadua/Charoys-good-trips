@@ -61,6 +61,36 @@
 
 
     <div class="container">
+
+      <div ng-controller="cRessource">
+        <div ng-controller="atriumCtrl">
+
+          <input type="text" ng-model="hashRoom"></input>
+          <button ng-click="readRoom(hashRoom)">join Room</button>
+          <button ng-click="createRoom()">create Room</button>
+
+        </div>
+
+        <div ng-controller="roomCtrl">
+          <span>{{room.hash}}</span>
+          <input type="text" ng-model="room.name" ng-change="op.save(room,url())"></input>
+
+          <button ng-click="createTrip()">create Trip</button>
+
+          <div ng-controller="tripCtrl" ng-repeat="trip in room.trips">
+            trip name : <input type="text" ng-model="trip.name" ng-change="op.save(trip,url())"></input> | <input type="text" ng-model="trip.city" ng-change="op.save(trip,url())"></input>
+          </div>
+
+          <div ng-repeat="user in room.users">
+             user name : <input type="text" ng-model="user.name"></input>
+          </div>
+
+        </div>
+        
+
+      </div>
+      
+
       <div class="row">
         <div class="col-lg-12 Sb">
 
