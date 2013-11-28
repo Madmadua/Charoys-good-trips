@@ -6,7 +6,7 @@ var cgtControllers = angular.module('cgtControllers' , []);
 
 cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 	function($scope, $http) {
-
+		
 	    $scope.search = function() {
 
 	    	var str = $scope.search_location;
@@ -36,6 +36,8 @@ cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 			    });*/
 			});
 		};
+		
+		$scope.details=false;
 	}
 ]);
 
