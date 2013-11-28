@@ -98,4 +98,3 @@ app.get( /^\/([0-9A-z.]*)$/, function (req, res) {
 });
 
 
-var groups = [];
