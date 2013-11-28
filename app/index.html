@@ -91,33 +91,49 @@
       </div>
       
 
+      <div class="row Sb">
+        <form role="form">
+          <div class="col-lg-4">
+            <input type="text" class="form-control input-lg" id="search_location" ng-model="search_location" placeholder="Where do you want to go ?" autocomplete="off" />
+          </div>
+
+          <div class="col-lg-2">
+            <input type="text" class="form-control input-lg" id="search_check_in" ng-model="search_check_in" placeholder="Check in" autocomplete="off" />
+          </div>
+
+          <div class="col-lg-2">
+            <input type="text" class="form-control input-lg" id="search_check_out" ng-model="search_check_out" placeholder="Check out" autocomplete="off" />
+          </div>
+
+          <div class="col-lg-2">
+            <select class="form-control input-lg" id="search_nb_guest" ng-init="search_nb_guests=1" ng-model="search_nb_guests">
+              <option value="1">1 guest</option>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+              <option value="4">4 guests</option>
+              <option value="5">5 guests</option>
+              <option value="6">6 guests</option>
+              <option value="7">7 guests</option>
+              <option value="8">8 guests</option>
+              <option value="9">9 guests</option>
+              <option value="10">10 guests</option>
+              <option value="11">11 guests</option>
+              <option value="12">12 guests</option>
+              <option value="13">13 guests</option>
+              <option value="14">14 guests</option>
+              <option value="15">15 guests</option>
+              <option value="16">16+ guests</option>
+            </select>
+          </div>
+
+          <div class="col-lg-2">
+            <button type="button" ng-click="search()" class="btn btn-default btn-lg btn-block">Search</button>
+          </div>
+        </form>
+      </div>
+
       <div class="row">
         <div class="col-lg-12 Sb">
-
-          <form class="form-inline" role="form" ng-submit="search()">
-
-            <div class="form-group">
-              <label class="sr-only" for="search_location">Where do you want to go ?</label>
-              <input type="text" class="form-control" id="search_location" ng-model="search_location" placeholder="Where do you want to go ?" autocomplete="off">
-            </div>
-
-            <div class="form-group">
-              <label class="sr-only" for="search_check_in">Check in</label>
-              <input type="text" class="form-control" id="search_check_in" ng-model="search_check_in" placeholder="Check in" autocomplete="off">
-            </div>
-
-            <div class="form-group">
-              <label class="sr-only" for="search_check_out">Check out</label>
-              <input type="text" class="form-control" id="search_check_out" ng-model="search_check_out" placeholder="Check out" autocomplete="off">
-            </div>
-
-            <div class="form-group">
-              <label class="sr-only" for="search_nb_guest">Nb. Guests</label>
-              <input type="text" class="form-control" id="search_nb_guest" ng-model="search_nb_guest" placeholder="Nb. Guests" autocomplete="off">
-            </div>
-
-            <button type="submit" class="btn btn-default">Search</button>
-          </form>
 
 
 		<div class="destination">
@@ -161,8 +177,14 @@
 
 
     <script>
-      $('#search_check_in').datepicker();
-      $('#search_check_out').datepicker();
+      $('#search_check_in').datepicker({
+        minDate: 0,
+        numberOfMonths: 2
+      });
+      $('#search_check_out').datepicker({
+        minDate: 0,
+        numberOfMonths: 2
+      });
     </script>
 
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
