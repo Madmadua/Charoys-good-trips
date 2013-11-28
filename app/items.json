@@ -1,0 +1,2193 @@
+{
+  "page": 1,
+  "totalPages": 42,
+  "resultsPerPage": 20,
+  "totalResults": 826,
+  "items": [
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [],
+      "occupancy": 2,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8646961,
+        2.3580854
+      ],
+      "description": "&strong&LOCATION :&/strong&&/span&&&&&\n\n&p&This apartment is perfect if you want to have a true experience of a parisian way of life. It is located in the heart of the historical, cultural and trendy Paris neighborhood, Le Marais. You will find plenty of art galleries, designer shops, caf&eacute;s and restaurants.&/span&&/p&\n\n&&\n\n&p&This apartment is very close to the Arts et Metiers Museum and to the &laquo; Rue de Bretagne &raquo;, one of the most popular and pleasant street of Paris, for its quality food shops, its famous restaurants and caf&eacute;s, such as Le Caf&eacute; Charlot, its quiet park, and its very popular &laquo; Enfants Rouges Market &raquo;, the oldest and trendiest vegetable market of Paris, offering organic food, cheese, wine, and charming restaurants to brunch.&/span&&&This quiet Marais apartment will seduce you with its old Paris cachet and its modern design.&/span&&&Its very central location will make it easy for you to explore all the best areas of central Paris by foot, such as Beaubourg Museum, Picasso Museum, la Place des Vosges, l&rsquo;H&ocirc;tel de Ville, Le Louvre, le Canal Saint Martin, Notre-Dame-de-Paris, and a lot more great attractions !&&&nbsp;&/span&&/p&\n\n&&\n\n&p&&strong&APARTMENT DESCRIPTION :&/strong&&/span&&/p&\n\n&&\n\n&p&Situated on the 5th floor, this 2 rooms apartment (40 sqm) is full of charm and parisian caracter, with original old beams from 1800's contrasting with white walls.&/span&&&The large and bright living room is well furnished and fully equiped (free Internet, wifi connection, cable TV, sofa, dining area with a large table and 4 chairs, iron...).&/span&&&The bedroom is perfect for two people with its double bed and its high quality mattress. The kitchen is also fully equiped with an italian coffee machine, a refrigerator/freezer, an electric kettle, a toaster, an oven, diner service, cuttlery, tea pot, pots and pans, wine glasses, etc&hellip;&/span&&/p&\n\n&&\n\n&p&The bathroom has a bathtub, a hand shower, and a hair dryer. High quality towels are furnished.&&&nbsp;&/span&&/p&\n\n&&\n\n&p&&strong&TRANSPORTATION :&/strong&&/span&&/p&\n\n&&Public Transport is also well served, less than 1 minute to Metro &amp; Buses from the apartment.&/span&&&&&\n\n&p&Closest Metro Stations : Arts et M&eacute;tiers (Line 3 &amp; 11), R&eacute;publique (line 3, 5, 8, 9, 11), Filles du Calvaire (line 8), R&eacute;aumur S&eacute;bastopol (line 3 &amp; 4).&/span&&/p&\n\n&&\n\n&p&You will also find all commodities in the street (some really good bakeries, great restaurants, supermarkets, drugstore, cycling hire stations...)&/span&&/p&",
+      "pid": "roo60035",
+      "price": 149,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665699/665699_property_page.jpg?1344434761",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665701/665701_property_page.jpg?1344434795",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665706/665706_property_page.jpg?1344434847",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665707/665707_property_page.jpg?1344434899",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665708/665708_property_page.jpg?1344434969",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665709/665709_property_page.jpg?1344434978",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665710/665710_property_page.jpg?1344434989",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665712/665712_property_page.jpg?1344435012",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665713/665713_property_page.jpg?1344435021",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665714/665714_property_page.jpg?1344435034",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665715/665715_property_page.jpg?1344435058",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665716/665716_property_page.jpg?1344435072",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665717/665717_property_page.jpg?1344435074",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665718/665718_property_page.jpg?1344435088",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665721/665721_property_page.jpg?1344435118",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665719/665719_property_page.jpg?1344435099",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/665720/665720_property_page.jpg?1344435110",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F3rd-arr-le-marais%2Fapartment%2F60035%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "60035",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "Typical Parisian Apt. in Le Marais",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": 1,
+      "unavailable": [],
+      "occupancy": 3,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "tv",
+        "parking",
+        "laundry",
+        "wheelchairaccess",
+        "elevator"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.835037,
+        2.317314
+      ],
+      "description": "Nicely decorated flat located in the heart of Paris, 14th district, only 5mn walks from Montparnasse station &amp; tower and 3 mn from many main transportation lines including direct buses from the 2 parisians airport: CDG and Orly&/span&&&&&The appartment is on the 1st floor in a secured building.&nbsp; There is a large lift that will allowed you to bring up all your luggage.&/span&&&&&Spacious, it has 2 bedrooms, one with a queen size bed and the other one with a single bed. A confortable living room. A full bathroom and separate toilets&/span&&&The kitchen has all the amenities you need to cook great meals - pots, pans, big oven, micro-wave and a Nespresso coffee machine !&/span&&&&&Comfort Facilities:&/span&&&- High-speed Wi-Fi &/span&&&- LCD TV with over 100 chanels including english and US programs ( and many more)&/span&&&- DVD player&/span&&&- Free phone calls to France, US, Canada, on cell phones and landlines; Free phone calls on landlines only to Australia, New Zealand and many other countries .&/span&&&- Fresh sheets and towels provided. &/span&&&- Queen size brand new mattress &/span&&&- Washing machine&/span&&&- Hairdryer &/span&&&- Iron&/span&&&- Kettle &/span&&&&&The neighboorhood is very lively, lots of shops &amp; commercial center around, cinemas and theaters, restaurant any style, a very good french bakery just down on the place, also a wine shop, a fish restaurant and an organic food market on saturday morning. 2 supermarket&nbsp; and a pharmacy at 50m&/span&&&&&Nearby you can discover the \"cimetiere du Montparnasse\" this cemetery can&rsquo;t match P&egrave;re-Lachaise in size or fame, but it certainly has its fair share of prestigious inhabitants, including Samuel Beckett, Simone de Beauvoir and Jean-Paul Sartre, Charles Garnier, Eugene Ionesco, Man Ray, Serge Gainsbourg, George Sand and Jean Seberg. Some of the more interesting sculptures include a polychrome cat by Nikki de Saint-Phalle and a birdman by Tinguely&/span&&&&&From The Montparnasse tower (3mn walks) on the 56th floor you'll discover a fantastic 390&deg; panoramic view of Paris.&/span&&&&&10mn walks and you'll find the busy Place Denfert Rochereau, with traffic swirling around the bronze Lion of Belfort statue by Bertholdi,&nbsp; Just behind the statue is a square with one of the old Ledoux city gates. The discreet green cabin around the southern side of the square is the entrance to the Catacombes (look for the lines of people), built in the old quarries in the 19th century to accommodate the exhumed remains of over six million Parisians crowding the inner city&rsquo;s cemeteries. &/span&&&&&Take the pedestrian Rue Daguerre, an authentic Parisian market street or the Rue de La Gait&eacute; where you can find a few surviving vestiges of Montparnasse&rsquo;s cabaret , many of the old theatres and a lot of restaurants and&nbsp; authentic Breton cr&ecirc;peries &/span&&&&&Gait&eacute; or Pernety Metro station are only 2mn walks and Montparnasse Bienvenue 5mn ! From there you can reach Eiffel Tower, Trocadero or St germain des Pres and Notre Dame direct in 10mn (5 metro stations)&/span&&&There is also Velib (bikes to hire) stop in front of the house and a Autolib ( car to hire by hour ) &/span&&&&&&&We are flexible on arrival and departure time. &/span&&&You will receive the keys, blankets, towels, sheets and some tips about Paris. &/span&&&We'll do what we can to make your stay confortable, we're living nearby so we are able to help you in any case.&/span&&&&&Welcome to Paris, A BIENTOT ! &/span&&&&&&nbsp;&/span&&&&&",
+      "pid": "roo60330",
+      "price": 149,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/669128/669128_property_page.jpg?1344800169",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/669130/669130_property_page.jpg?1344800242",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/669131/669131_property_page.jpg?1344800286",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/669132/669132_property_page.jpg?1344800319",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/669134/669134_property_page.jpg?1344800455",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/669136/669136_property_page.jpg?1344800602",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/692499/692499_property_page.jpg?1346850559",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/692497/692497_property_page.jpg?1346850352",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/692498/692498_property_page.jpg?1346850414",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F14th-arr-montparnasse%2Fapartment%2F60330%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "60330",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 2,
+      "heading": "2 BR. Apt in Central Paris",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [],
+      "occupancy": 2,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "airconditioning",
+        "laundry",
+        "free_cleaning",
+        "wheelchairaccess",
+        "pool",
+        "gym",
+        "elevator",
+        "doorman"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8747956,
+        2.3289605
+      ],
+      "description": "&span data-mce-mark=&quot;1&quot;&&span data-mce-mark=&quot;1&quot;&If you think to travel on Paris, this is a good and low price alternative. It&#x27;s close from the metro station (subway) Havre, that connects with all the metro stations. Very close from Champs Elysees and the Opera, beautiful building tree blocks walking from the hotel. To travel in Paris, you&#x27;ll need subway, so this apartment is a perfect rental for your stay!&&&&With its elegant 18th century style fa&amp;ccedil;ade, the apartment is located in the financial district department stores , the Opera Garnier and the Madeleine , close to the theaters and the Grands Boulevards.&&The studio, which can sleep up to two people, includes: a living room with a bed (double bed or twin beds, upon request and subject to availability) and office area, a fully equipped kitchen (glass ceramic stovetop, refrigerator, microwave, glasswasher, dishes...), a bathroom with bathtub, towels, hair dryer, a flat-screen television (satellite), free WiFi, safe.&/span&&/span&\n\n&p&Situation&/span&&&In the heart of Paris , discover one of the liveliest areas of the city, which is on the culture and business. Quickly access the Place de l&#x27;Opera with its majestic buildings and business center crowded where the headquarters of major corporations. Shopping enthusiasts will love strolling through the department stores or boutiques.&/span&&/p&\n\n&p&Take advantage of the proximity of the famous monuments of Paris and visit the Eiffel Tower , the Louvre, Montmartre, Place de la Concorde, the Champs Elysees and Disneyland Paris also directly accessible by RER A.&/span&&/p&\n\n&p&The residence&/span&&&Open 24h/24 , the apartment offers the best comfort and high quality service to all its 90 studios and apartments , with a kitchen, an LCD TV, with office space ...&/span&&/p&\n\n&p&Facilities and Services&/span&&&Enjoy the facilities and services made ​​available to you free of charge such as wifi internet , safe, hairdryer ...&/span&&&Many extra services facilitate the progress of your stay: parking, breakfast buffet, laundry, daily cleaning for stays of less than 7 nights ...&/span&&/p&\n\n&p&The strengths :&/span&&&The comfort of housing&/span&&&The location is very central and attractive&/span&&&The proximity of stores and sites in Paris&/span&&&The pedestrian environment&/span&&/p&",
+      "pid": "roo60156",
+      "price": 326,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666783/666783_property_page.jpg?1344509221",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666781/666781_property_page.jpg?1344509213",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666782/666782_property_page.jpg?1344509220",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666784/666784_property_page.jpg?1344509222",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666780/666780_property_page.jpg?1344509213",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666777/666777_property_page.jpg?1344509206",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666779/666779_property_page.jpg?1344509212",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666776/666776_property_page.jpg?1344509206",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666778/666778_property_page.jpg?1344509207",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666787/666787_property_page.jpg?1344509230",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/666788/666788_property_page.jpg?1344509233",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F9th-arr-opera-garnier%2Fapartment%2F60156%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "60156",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 0,
+      "heading": "Luxurious Studio for 2 in Opera",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Serviced Apartment - Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [
+        1385960400,
+        1386046800,
+        1386133200,
+        1386219600,
+        1386306000,
+        1386392400,
+        1386478800,
+        1386565200,
+        1386651600,
+        1386738000,
+        1386824400,
+        1386910800,
+        1386997200,
+        1387515600,
+        1387602000,
+        1387688400,
+        1387774800,
+        1387861200,
+        1387947600,
+        1388034000
+      ],
+      "occupancy": 2,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.881342031,
+        2.3413468614
+      ],
+      "description": "Apartment of 30 m &amp;sup2;, in ground floor only for 2 people in a building 1900. Completely renewed by an architect (construction site finished in May 2012), situated 50m away of the Rue des Martyrs. It includes a lounge (television, DVD, ADSL), a small bedroom with arrangements, a fully equiped kitchen (dishwasher, oven, microwave oven, complete household electrical appliances), bathroom and toilets (washing machine, towel dryer).&/span&&&&&&&&&&&&&\n\n&p&It is at the same time cosy , very comfortable and functional. The furnishing is sober and elegant. Very quiet and, although situated at the ground floor, we sleep with the opened sometimes when it is very warm.&/span&&/p&\n\n&&&&&&&&&&&&&&&&&&&&&&\n\n&p&The district is located, just in the northeast of department stores Galleries Lafayette and Printemps (10 mn in subway) and in the southwest of the basilica of the Sacr&amp;eacute;- Coeur of Montmartre (10 mn on foot). It is a very lively location with the night districts of Pigalle and Abbesses.&/span&&/p&\n\n&&&&&&&&&&&&&&&&&&&&&&\n\n&p&We find many small shops, bars and restaurants as well as cabarets there (The Moulin Rouge, Chez Michou), theaters (the Cicada, the Divan du Monde World). It offers the conviviality of a village and the vitality of a lively area. You are here in the heart of the district of &quot; La Nouvelle Ath&amp;egrave;nes &quot;.&/span&&/p&",
+      "pid": "roo60649",
+      "price": 136,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673811/673811_property_page.jpg?1345144361",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673812/673812_property_page.jpg?1345144363",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673809/673809_property_page.jpg?1345144354",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673808/673808_property_page.jpg?1345144354",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673813/673813_property_page.jpg?1345144362",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673810/673810_property_page.jpg?1345144355",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673814/673814_property_page.jpg?1345144367",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F9th-arr-opera-garnier%2Fapartment%2F60649%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "60649",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "Apt 314 -- rue Jean Baptiste Say --",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [
+        1385614800,
+        1385701200,
+        1385787600,
+        1385874000,
+        1385960400,
+        1386046800,
+        1386133200,
+        1386219600,
+        1386306000,
+        1386392400,
+        1386478800,
+        1386565200,
+        1386651600,
+        1386738000,
+        1386824400,
+        1386910800,
+        1386997200,
+        1387083600,
+        1387170000,
+        1387256400,
+        1387342800,
+        1387429200,
+        1387515600,
+        1387602000,
+        1387688400,
+        1387774800,
+        1387861200,
+        1387947600,
+        1388034000
+      ],
+      "occupancy": 2,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8695732,
+        2.3525565
+      ],
+      "description": "Quiet studio, with all the charm of an ancient building going back to the 18th century: exposed beams, fireplace, floor-tiles. Has just been redone from scratch. The fourth floor and half of a building. For a couple, possibility of an extra bed for a baby .&/span&&&&&\n\n&p&This beautiful apartment is located in the heart of Paris in the 2nd arrondissement. Nearby Rue Montorgueil is a wonderful pedestrian street with an eclectic mix of fashionable shops, markets, restaurants and charming cafes.&/span&&/p&\n\n&&&&&&\n\n&p&This 4th floor walkup is centrally located with short walks to four different metro stops. The Louvre is just a ten-minute walk away.&/span&&/p&",
+      "pid": "roo60651",
+      "price": 109,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673816/673816_property_page.jpg?1345144661",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673815/673815_property_page.jpg?1345144661",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673817/673817_property_page.jpg?1345144663",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673818/673818_property_page.jpg?1345144670",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/673819/673819_property_page.jpg?1345144670",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F2nd-arr-la-bourse%2Fapartment%2F60651%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "60651",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 0,
+      "heading": "Apt 315 -- rue Saint Denis -- 2nd D",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [],
+      "occupancy": 4,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "cabletv",
+        "tv",
+        "laundry"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8651326,
+        2.3599121
+      ],
+      "description": "Very Parisian oak beams Charming Cosy two rooms apartment.&/span&&&&&&&&&&&\n\n&p&In the upper part of the historical and fashionable Le Marais disctrict, this sunny two rooms apartment with quality amenities will be the perfect spot to enjoy Paris.&/span&&/p&\n\n&&&&&&&&&&&&&&&&&&\n\n&p&This neighbourhood is well knon for its fashion designers, it is lively but the apartment is quite since it&#x27;s on a very traditional Parisian courtyard.&/span&&/p&\n\n&&&&&&&&&&&&&&&&&&\n\n&p&There is a bedroom with ensuite Bathroom and a tub.&/span&&/p&\n\n&&&&&&&&&&&&&&&&&&\n\n&p&The living room has a fully equipped modern kitchen and also a washer, a convertible sofa, Flat screen TV and broadband WIFI, Nespresso machine...&/span&&/p&\n\n&&&&&&&&&&&&&&&&&&\n\n&p&We have easy access to all Paris sites, and airports with public transports but the best would be for you to walk around.&/span&&/p&\n\n&&&&&&&&&&&&&&&&&&\n\n&p&This is not a sublet. Be careful, in Paris it is illegal to sublet a flat unless the owner has given his written authorisation, so I suggest you ask your host if he rents or own the apartment you&#x27;re about to book...&/span&&/p&",
+      "pid": "roo62910",
+      "price": 149,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836799/836799_property_page.jpg?1357858476",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836807/836807_property_page.jpg?1357858499",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836804/836804_property_page.jpg?1357858484",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836805/836805_property_page.jpg?1357858485",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836808/836808_property_page.jpg?1357858499",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836806/836806_property_page.jpg?1357858490",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836803/836803_property_page.jpg?1357858483",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836800/836800_property_page.jpg?1357858476",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836801/836801_property_page.jpg?1357858476",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836815/836815_property_page.jpg?1357858739",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836816/836816_property_page.jpg?1357858753",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836822/836822_property_page.jpg?1357858914",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836823/836823_property_page.jpg?1357858915",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836824/836824_property_page.jpg?1357858919",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836827/836827_property_page.jpg?1357858976",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/836828/836828_property_page.jpg?1357858985",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F3rd-arr-le-marais%2Fapartment%2F62910%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "62910",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "Charming Cosy Marais Two Rooms Flat",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [],
+      "occupancy": 2,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "parking",
+        "airconditioning",
+        "breakfast",
+        "elevator"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.856614,
+        2.3522219
+      ],
+      "description": "&span style=&quot;color: #6b655d; font-family: &#x27;Trebuchet MS&#x27;, arial, helvetica, clean, sans-serif; font-size: 11px; line-height: normal; text-align: justify;&quot;&STUDIO FOR 2 PERSONS&&Studio with a double bed, desk, kitchen, bathroom, separate toilet, WIFI Internet access on request, cable TV and telephone.&&&&The Apartments La D&amp;eacute;fense Esplanade is located in the heart of the La D&amp;eacute;fense business district, near to the CNIT (Center of New Industries and Technologies) and the Grande Arche. A large shopping center and all amenities are within a few minutes&#x27; walk and there is a public paying car park nearby. Ideal for business trips, the Aparthotel is also only 10 minutes away from the Champs-Elys&amp;eacute;es by metro. &&APARTMENT FACILITIES&&- 220/240 V AC- Air conditioning- Emergency exit map- Safe deposit box in room- Bathroom doors 32 inches wide- Telephone- Opening windows- Wi-Fi in your room- Operator wake up call- Automatic wake up call- Work desk in all rooms- Free access with phone card- Manual temperature control- Satellite/cable colour TV- RJ 45 outlet- Microwave in room&&KITCHEN FACILITIES&&- Pots/Pans/Dishes- Vacuum cleaner- Fridge- Dishwasher- Cleaning kit- Coffee maker- Furnished kitchen- Microwave in room- Ceramic glass cooktop&&BATHROOM FACILITIES&&- Hair dryer in bathroom&/span&&&&&ACCESSIBILITY&/span&&&Wheelchair accessReduced mobility facilitiesBathroom doors 32 inches wideAccessible bathroom&/span&&&PARKING&/span&&&Bus/coach parking areaPublic indoor parking1 Public outdoor parking1&/span&&&&&IT/BUSINESS FACILITIES&/span&&&Acces multim&amp;eacute;dia&/span&&&Wi-Fi at the hotelWi-Fi in your roomWi-Fi in the communal areas&/span&&&Business services&/span&&&Internet connectivity1&/span&&&&&SHOPS AND SERVICES&/span&&&Laundry&/span&&&Laundromat1 Dry cleaning / Ironing1&/span&&&&&SECURITY&/span&&&Fire safety systemAudible smoke alarms24 hour security staffAnnual safety inspectionsKeycard-operated door locksSmoke extractors in corridorsVideo camera at bldg entranceEmerg. lighting at emerg. exitsComplies w. Htl Safety Act 1990Smoke extractors in public areasEmergency info in roomsSmoke alarm in public areasCompliant national safety regsCompliant with Accor safety stds&/span&",
+      "pid": "roo44520",
+      "price": 262,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/478364/478364_property_page.jpg?1331818282",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/478365/478365_property_page.jpg?1331818288",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/478366/478366_property_page.jpg?1331818294",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/478367/478367_property_page.jpg?1331818300",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/478368/478368_property_page.jpg?1331818307",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/478369/478369_property_page.jpg?1331818313",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/478370/478370_property_page.jpg?1331818320",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/478371/478371_property_page.jpg?1331818326",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F19th-arr-la-villette%2Fapartment%2F44520%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "44520",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 0,
+      "heading": "La Defense Esplanade Studio",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Serviced Apartment - Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": 1,
+      "unavailable": [],
+      "occupancy": 3,
+      "amenities": [
+        "internet",
+        "cabletv",
+        "tv"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.841053,
+        2.349023
+      ],
+      "description": "&span style=&quot;color: #2d5975; font-family: &#x27;Lucida Grande&#x27;, Lucida, Arial, sans-serif; font-size: 12px; text-align: justify;&quot;&A charming studio a few meters away from the Sorbonne University. It is located in a very quiet lane looking onto the street Mouffetard. He allows you at once to take advantage of small bars, restaurants and storekeepers of streets &quot;Mouffetard&amp;rdquo; and &quot;du Pot de Fer&amp;rdquo;, while staying in calm. There is not of towards but a romantic view on a small garden. This apartment is very central and also very well served by the public transportation. Visible beams as well as the alliance of a modern and ancient furniture will make you live like a&amp;nbsp; Parisian. It is a nice duplex with a double bed on the mezzanine and a single be din the living room.&/span&&br&&br&",
+      "pid": "roo44182",
+      "price": 170,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/474781/474781_property_page.jpg?1331548410",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/474782/474782_property_page.jpg?1331548415",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/474783/474783_property_page.jpg?1331548420",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/474784/474784_property_page.jpg?1331548424",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/474785/474785_property_page.jpg?1331548429",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/474786/474786_property_page.jpg?1331548434",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/474787/474787_property_page.jpg?1331548438",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/474788/474788_property_page.jpg?1331548445",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/474789/474789_property_page.jpg?1331548450",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F5th-arr-quartier-latin%2Fapartment%2F44182%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "44182",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "Duplex near Mouffetard and Place Monge",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [],
+      "occupancy": 4,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "elevator"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.844895081,
+        2.3210883824
+      ],
+      "description": "&nbsp;Just renovated appartment right in the heart of famous Montparnasse, all comodities at your door step: subway and buses, restaurants, cinemas, theatres and finest shopping. A walk thru the beautiful 6th district of Paris will take you to Saint-Germain des Pr&eacute;s in a few minutes. This first floor with elevator one bedroom appartment has been recently renovated. The bedroom (queen size bed, brand new high quality bedding) overlooks a calm backyard, the bathroom has a full bathtub and shower with separate WC, the living room offers a sofa bed (queen size brand new high quality bedding, sleeps 2) and a dining table, large flat cable TV and free wifi. Kitchen is&nbsp;fully equiped. All the most beautifull monumets of Paris are just a few subway stations away and Montparnasse station, at walking distance, will take you in Bretagne and the south west coast.&/span&&br&&br&Appartement tout juste r&eacute;nov&eacute; en plein centre du fameux Montparnasse toutes les commodit&eacute;s aux pieds de l'immeuble: m&eacute;tro et bus, restaurants, cin&eacute;mas, th&eacute;atres et les boutiques les plus chics. Une promenade dans le magnifique 6e arrondissement vous am&egrave;nera en quelques minutes &agrave; Saint Germain des Pr&eacute;s. Cet appartement, r&eacute;cement r&eacute;nov&eacute;, situ&eacute; au premier &eacute;tage dispose d'une chambre &agrave; coucher (lit 140 literie de haute qualit&eacute;, neuve) donnant sur une calme cour int&eacute;rieure et d'une salle de bains avec baignoire, douche, et WC s&eacute;par&eacute;s. Le salon propose un canap&eacute; lit (couchage 140, literie de haute qualiot&eacute;, neuve) et une table pour vos repas, ainsi qu'un grand &eacute;cran plat avec cable etQuQ wifi gratuit. la cuisine est enti&egrave;rement &eacute;quip&eacute;e. Les plus beaux monuments de Paris sont &agrave; quelques stations de m&eacute;tro, la gare Montparnasse, accessible &agrave; pieds, vous emm&egrave;nera en Bretagne et sur la c&ocirc;te du sud-ouest.&/span&&br&&br&",
+      "pid": "roo44746",
+      "price": 177,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582520/582520_property_page.jpg?1338234720",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582543/582543_property_page.jpg?1338235142",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582516/582516_property_page.jpg?1338234710",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582517/582517_property_page.jpg?1338234712",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582504/582504_property_page.jpg?1338234677",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582513/582513_property_page.jpg?1338234702",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582512/582512_property_page.jpg?1338234702",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582514/582514_property_page.jpg?1338234704",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582511/582511_property_page.jpg?1338234694",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582510/582510_property_page.jpg?1338234692",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582557/582557_property_page.jpg?1338236095",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/481069/481069_property_page.jpg?1332099712",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582509/582509_property_page.jpg?1338234693",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582508/582508_property_page.jpg?1338234687",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582506/582506_property_page.jpg?1338234684",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/582505/582505_property_page.jpg?1338234678",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F6th-arr-st-germainluxembourg%2Fapartment%2F44746%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "44746",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "50 sqm in the heart of Paris 6",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": 2,
+      "unavailable": [],
+      "occupancy": 5,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry",
+        "free_cleaning",
+        "outdoor_space"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8486834,
+        2.3417069
+      ],
+      "description": "&h2&Apartment &/span&&/h2&\n\nLocated in the heart of the Latin Quarter, this apartment has 2 bedrooms, 1 bath (shower, wc and sink), living/dining area and a 13m2 terrace. The apartment comes with all the amenities one needs while in Paris- WIFI, TV, DVD, Linens and towels, fully equipped kitchen and plenty of storage space...&amp;nbsp;&/span&&&Located on the left bank, we are just steps away from the rue Mouffetard, the Panth&amp;eacute;on, Saint Germain des Pr&amp;eacute;s and Montparnasse. The 5th arrondissement seduces appeals to lovers of the Latin Quarter. With easy access to the capital&#x27;s monuments, from the Louvre to Notre Dame by way of the Opera and the &quot;Senat&quot;, we are also close to the Sorbonne, the CNRS, the Universit&amp;eacute; Pierre et Marie Curie and the Museum of Natural History near &quot;Jardin des Plantes&quot; . &/span&&&&&Amenities :Security code with Interphone ,Washing machine ,Iron/Ironing board , Bed linen provided ,Cable/Satellite TV ,Television, DVD player,WiFi,Microwave,Stove,Coffee maker,Dishwasher,Refrigerator,Vitro ceramic,Toaster,Kitchen utensils provided,Patio/deck/Terrace,Shower,Towels provided,Hair dryer,&/span&",
+      "pid": "roo45398",
+      "price": 582,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400035/1400035_property_page.jpg?1372331483",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400049/1400049_property_page.jpg?1372331506",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400025/1400025_property_page.jpg?1372331463",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400053/1400053_property_page.jpg?1372331515",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488938/488938_property_page.jpg?1332580825",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400059/1400059_property_page.jpg?1372331523",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488939/488939_property_page.jpg?1332580829",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488941/488941_property_page.jpg?1332580837",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400033/1400033_property_page.jpg?1372331481",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488942/488942_property_page.jpg?1332580841",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400024/1400024_property_page.jpg?1372331460",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488944/488944_property_page.jpg?1332580849",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488945/488945_property_page.jpg?1332580853",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400023/1400023_property_page.jpg?1372331456",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400026/1400026_property_page.jpg?1372331466",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400029/1400029_property_page.jpg?1372331473",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400036/1400036_property_page.jpg?1372331483",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400039/1400039_property_page.jpg?1372331489",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400041/1400041_property_page.jpg?1372331495",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400043/1400043_property_page.jpg?1372331495",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400046/1400046_property_page.jpg?1372331500",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400047/1400047_property_page.jpg?1372331504",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400051/1400051_property_page.jpg?1372331512",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400052/1400052_property_page.jpg?1372331515",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400057/1400057_property_page.jpg?1372331526",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400061/1400061_property_page.jpg?1372331524",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1400064/1400064_property_page.jpg?1372331535",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F5th-arr-quartier-latin%2Fapartment%2F45398%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45398",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 2,
+      "heading": "COZY LATIN QUARTER 2 BR APT FOR 5",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Serviced Apartment - Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [
+        1385614800,
+        1385701200,
+        1385787600,
+        1385874000,
+        1385960400,
+        1386046800,
+        1386133200,
+        1386219600,
+        1386306000,
+        1386392400,
+        1386478800,
+        1386565200,
+        1386651600,
+        1386738000,
+        1386824400,
+        1386910800,
+        1386997200,
+        1387083600,
+        1387170000,
+        1387256400,
+        1387342800,
+        1387429200,
+        1387515600,
+        1387602000,
+        1387688400,
+        1387774800,
+        1387861200,
+        1387947600,
+        1388034000
+      ],
+      "occupancy": 2,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry",
+        "balcony"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.878876,
+        2.3481908
+      ],
+      "description": "Lovely apartment, located in the theater district and close to the main department stores. It is ideally located close to Gare du Nord train station and main subway lines.&br&&br&From the apartment you can quickly get to the historic district of Montmartre and the Sacr&amp;eacute; Coeur, shop in the most famous department stores (Galeries Lafayette, Printemps..) or enjoy a show in the theaters or the Paris Opera.&br&&br&Subway lines 4 and 7 can also take you to the center of the city in 15 minutes where you can visit typical districts like Le Marais or Saint Michel.&br&&br&The apartment includes a spacious living room, a dining room, an open kitchen and a bedroom with its own bathroom. Moreover you can enjoy the sunny balcony while taking your breakfast and dinner.&br&&br&The apartment is located on the 5th floor (no elevator).&br&&br&Wireless internet, DVD player, cable TV.&br&&br&",
+      "pid": "roo45420",
+      "price": 115,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489285/489285_property_page.jpg?1332677019",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/494969/494969_property_page.jpg?1332957244",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489282/489282_property_page.jpg?1332676897",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489288/489288_property_page.jpg?1332677155",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489293/489293_property_page.jpg?1332677402",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489292/489292_property_page.jpg?1332677280",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489296/489296_property_page.jpg?1332677518",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489298/489298_property_page.jpg?1332677645",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489300/489300_property_page.jpg?1332677808",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489309/489309_property_page.jpg?1332678873",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489311/489311_property_page.jpg?1332678982",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/489303/489303_property_page.jpg?1332677941",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F9th-arr-opera-garnier%2Fapartment%2F45420%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45420",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "Square Montholon - Montmartre",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [],
+      "occupancy": 5,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry",
+        "wheelchairaccess"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8662279,
+        2.3648494
+      ],
+      "description": "&span style=&quot;font-size: 12pt; font-family: Verdana, sans-serif;&quot;&Apartment&/span&&&&&&span style=&quot;font-size: 12pt; font-family: Verdana, sans-serif;&quot;&This 78m2 newly redecorated Paris 2 bdrm, 1.5 bath apartment is located in the center of Paris, in the lovely Marais district. The area is great for cafes, boutiques, trendy restaurants, and just minutes from the George Pompidou centre. The apartment has one king bed (that can be separated into two twin beds and one queen bed. There is also a fold out single bed for the 5th person. The apartment is on the fourth floor with an elevator. It has a living room and one full bath and one bathroom en suite with a shower and sink. The apartment is spacious, quiet and lots of old Parisian charm...&/span&&&&&&span style=&quot;font-size: 12pt; font-family: Verdana, sans-serif;&quot;&Area&/span&&&&&&span style=&quot;font-size: 12pt; font-family: Verdana, sans-serif;&quot;&Throughout the centuries Le Marais gradually came to offer one of the richest architectural ensemblages in Paris. Today, a bounty of designer shops, fascinating museums, a lively gay district, and the old Jewish neighborhood vibrate with French architectural history as a backdrop. Although access to notable h&amp;ocirc;tels particuliers is often limited by digitcodes, it is still possible to explore this architectural banquet and to train one&amp;rsquo;s eyes to discern the various styles. Rue du Temple has many shops and boutiques to choose.&amp;nbsp;&& && && Metro: Hotel de Ville, Ramuteau, ligne 1,3&/span&&&&&&&AMENITIES:&/span&&&&&Elevator Concierge Security code with Interphone Washer/Dryer Iron Ironing board Bed linen provided Cable/Satellite TV TV DVD player Video library CD Player High-speed Internet WiFi Oven Microwave Stove Coffee maker Dishwasher Refrigerator Freezer Vitro ceramic Gas Toaster Water kettle Kitchen utensils provided Fans Shower Bathtub Towels provided Hair dryer City view&/span&&&&&",
+      "pid": "roo45394",
+      "price": 614,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1397575/1397575_property_page.jpg?1372267174",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1397574/1397574_property_page.jpg?1372267174",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353740/1353740_property_page.jpg?1369048867",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353738/1353738_property_page.jpg?1369048856",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353737/1353737_property_page.jpg?1369048858",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353739/1353739_property_page.jpg?1369048857",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353741/1353741_property_page.jpg?1369048868",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353742/1353742_property_page.jpg?1369048869",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353743/1353743_property_page.jpg?1369048875",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353744/1353744_property_page.jpg?1369048877",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353745/1353745_property_page.jpg?1369048881",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353746/1353746_property_page.jpg?1369048883",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353747/1353747_property_page.jpg?1369048887",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353748/1353748_property_page.jpg?1369048897",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353749/1353749_property_page.jpg?1369048898",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353750/1353750_property_page.jpg?1369048905",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353761/1353761_property_page.jpg?1369048952",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353751/1353751_property_page.jpg?1369048910",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353752/1353752_property_page.jpg?1369048914",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353753/1353753_property_page.jpg?1369048918",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353754/1353754_property_page.jpg?1369048918",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353755/1353755_property_page.jpg?1369048924",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353757/1353757_property_page.jpg?1369048936",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353756/1353756_property_page.jpg?1369048933",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353758/1353758_property_page.jpg?1369048942",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353759/1353759_property_page.jpg?1369048943",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353760/1353760_property_page.jpg?1369048949",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1353762/1353762_property_page.jpg?1369048960",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F3rd-arr-le-marais%2Fapartment%2F45394%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45394",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 2,
+      "heading": "PARISIAN CHARME! 2 BEDROOM APT",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": 2,
+      "unavailable": [],
+      "occupancy": 4,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry",
+        "wheelchairaccess"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8641499,
+        2.3589885
+      ],
+      "description": "APARTMENT&/span&&&&&... in the historical and now fashionable center, this spacious (95m2) very upscale 2 bedroom apartment is perfectly suited for a couple or family with elegant taste. It is located on the rue du Temple, known for its trendy night spots and yet only steps away from the main number 1 metro line and major cultural sites: the Louvre, the Hotel de Ville and the Seine.&/span&&& && It is an elegantly decorated apartment up one flight of stairs, overlooking a quaint merchant street with shops, bakeries and restaurants.&/span&&& One bedroom is facing the courtyard and the other onto the street. One bedroom has a queen size bed and the other has 2 twins beds. Sleeps 4 max.&amp;nbsp;&/span&&& && The kitchen has all modern appliances including a washing machine/dryer, dishwasher, microwave.&/span&&& The bathroom has been entirely redone with new marble tile, and a jacuzzi bathtub and shower.&/span&&&&&AREA&/span&&&&&In the heart of Paris, the Marais is famous for its unique heritage. Far from being just a &quot;museum district&quot;, it mixes wholesale clothing, trendy cafes and chic boutiques. The old Jewish neighborhood still proudly bears its past, but in recent decades the gay community has also made its mark. The Marais is lovely, multifaceted, animated and lively.&/span&&&&&AMENITIES&/span&&&&&Wifi Internet access&/span&&&&&Microwave&/span&&&&&Refrigerator&/span&&&&&Hairdryer&/span&&&&&Tea kettle&/span&&&&&DVD&/span&&&&&Dishwasher&/span&&&&&Cable TV&/span&&&&&Linens and Towels&/span&&&&&Toaster&/span&&&&&Oven&/span&&&&&Oven&/span&&&&&Vaccum Cleaner&/span&&&&&Freezer&/span&&&&&Dryer&/span&&&&&Bathtub/shower&/span&&&&&Coffee maker&/span&&&&&",
+      "pid": "roo45395",
+      "price": 821,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488873/488873_property_page.jpg?1332579526",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488886/488886_property_page.jpg?1332579584",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488872/488872_property_page.jpg?1332579519",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488871/488871_property_page.jpg?1332579515",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488880/488880_property_page.jpg?1332579560",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488862/488862_property_page.jpg?1332579472",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488863/488863_property_page.jpg?1332579475",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488864/488864_property_page.jpg?1332579480",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488865/488865_property_page.jpg?1332579484",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488867/488867_property_page.jpg?1332579495",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488868/488868_property_page.jpg?1332579501",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488869/488869_property_page.jpg?1332579505",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488870/488870_property_page.jpg?1332579509",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488874/488874_property_page.jpg?1332579530",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488875/488875_property_page.jpg?1332579536",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488866/488866_property_page.jpg?1332579491",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488876/488876_property_page.jpg?1332579539",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488877/488877_property_page.jpg?1332579545",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488878/488878_property_page.jpg?1332579550",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488879/488879_property_page.jpg?1332579555",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488881/488881_property_page.jpg?1332579564",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488882/488882_property_page.jpg?1332579568",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488883/488883_property_page.jpg?1332579572",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488884/488884_property_page.jpg?1332579576",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488885/488885_property_page.jpg?1332579580",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/488887/488887_property_page.jpg?1332579588",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F3rd-arr-le-marais%2Fapartment%2F45395%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45395",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 2,
+      "heading": "LUXURYRUE DU TEMPLE 2BR APT-JACUZZI",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Serviced Apartment - Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [],
+      "occupancy": 3,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8566946,
+        2.3585245
+      ],
+      "description": "&span style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\"&This lovely flat is located at third floor of an ancient characteristic building of the Marais district.&/span&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&span style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\"&It has been fully renovated in 2012 and all the furniture have been custom made and deeply optimized to exploit the space.&/span&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&span style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\"&Actually the disposition of the apartment allow to enjoy 3 different areas:&nbsp;&/span&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&span style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\"&- the living where there is a sofabed and an armchair in the corner and the (cable) TV;&nbsp;&/span&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&span style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\"&- the kitchen is equipped with microwave, fridge, vitroceramic, dishwasher and washing machine. Here there is a table-bar for 2 and also another lower table which can be open if there are more guests eating;&/span&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&span style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\"&- the sleeping area furnished with a real, comfortable bed, a keyboard and a little \"bureau\" where is possible to work or study.&nbsp;&/span&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&span style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\"&Finally the bathroom, small but nice and comfortable, equipped with sink, WC and shower.&/span&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&span style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\"&In the apartment there is internet WiFi and telephone with free calls to landlines almost all over the world and also to mobile numbers in the US and Canada.&/span&&br style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\" /&&span style=\"color: #6a6a6a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;\"&Bed and bath linens are provided. &/span&&br&&br&",
+      "pid": "roo45261",
+      "price": 202,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487372/487372_property_page.jpg?1332459488",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487373/487373_property_page.jpg?1332459507",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487375/487375_property_page.jpg?1332459533",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487377/487377_property_page.jpg?1332459571",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487378/487378_property_page.jpg?1332459594",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487380/487380_property_page.jpg?1332459619",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487382/487382_property_page.jpg?1332459644",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487383/487383_property_page.jpg?1332459667",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487386/487386_property_page.jpg?1332459725",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487387/487387_property_page.jpg?1332459748",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487390/487390_property_page.jpg?1332459798",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487391/487391_property_page.jpg?1332459821",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487392/487392_property_page.jpg?1332459843",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/487393/487393_property_page.jpg?1332459862",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F4th-arr-ile-de-la-citeile-st-louis-beaubourg%2Fapartment%2F45261%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45261",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "Flat n.154004 COZY COMFORTABLE MARAIS",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": 0,
+      "unavailable": [],
+      "occupancy": 3,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry",
+        "elevator"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8324679,
+        2.3978812
+      ],
+      "description": "This modern studio apartment of 23m2 is located in 12th district of Paris. Studio is situated on the ground floor of the modern building equipped with the entrance code and elevator. It sleeps 3 people. A small entrance, a living room, an American kitchen, a bathroom, the toilets.",
+      "pid": "roo45876",
+      "price": 100,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536771/536771_property_page.jpg?1334950431",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536772/536772_property_page.jpg?1334950441",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536773/536773_property_page.jpg?1334950451",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536774/536774_property_page.jpg?1334950461",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536775/536775_property_page.jpg?1334950472",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536776/536776_property_page.jpg?1334950482",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536777/536777_property_page.jpg?1334950490",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536778/536778_property_page.jpg?1334950500",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536779/536779_property_page.jpg?1334950510",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536780/536780_property_page.jpg?1334950521",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536781/536781_property_page.jpg?1334950532",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536782/536782_property_page.jpg?1334950543",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536783/536783_property_page.jpg?1334950555",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536784/536784_property_page.jpg?1334950566",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F12th-arr-gare-de-lyon%2Fapartment%2F45876%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45876",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "#429: studio in the 12 arr of Paris (Gare de Lyon, Bastille)",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": 0,
+      "unavailable": [],
+      "occupancy": 4,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry",
+        "elevator"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8729998,
+        2.3053124
+      ],
+      "description": "This luxuriously furnished 1 bedroom apartment is located on the 6th floor of a 20th century building and it sleeps up to 4 people. Rue Berri is conveniently perpendicular to the Champs Elysees Avenue. There is living-room, kitchen, bedroom and bathroom. It is close to many convenient stores such as: Bakery, Butchery, Supermarket and a Drugstore.",
+      "pid": "roo45889",
+      "price": 327,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536998/536998_property_page.jpg?1334952768",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/536999/536999_property_page.jpg?1334952782",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537000/537000_property_page.jpg?1334952795",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537001/537001_property_page.jpg?1334952809",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537002/537002_property_page.jpg?1334952822",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537003/537003_property_page.jpg?1334952834",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537004/537004_property_page.jpg?1334952852",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537005/537005_property_page.jpg?1334952868",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537006/537006_property_page.jpg?1334952882",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537007/537007_property_page.jpg?1334952897",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537008/537008_property_page.jpg?1334952911",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537009/537009_property_page.jpg?1334952925",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537011/537011_property_page.jpg?1334952940",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/537013/537013_property_page.jpg?1334952954",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F8th-arr-champs-elysees%2Fapartment%2F45889%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45889",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "#527: 1 bedroom apartment in the 8 arr of Paris (Champs Élysées, Arc de Triomphe, Lido, Avenue Montaigne)",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": 0,
+      "unavailable": [],
+      "occupancy": 4,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry",
+        "elevator"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.869006,
+        2.290778
+      ],
+      "description": "This nice one bedroom apartment of 40m2 is situated in the 16th district of Paris, in 200 m from the Trocadero - where you could admire the most beautiful view of the Eiffel Tower. The apartment is located on the 4th French floor in Haussmanian building which is equipped with the elevator, entry code and concierge.There is bedroom, a living-room is combined with a small kitchen with a bar counter, the bathroom with bath with wc.",
+      "pid": "roo45897",
+      "price": 197,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/532651/532651_property_page.jpg?1334869241",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/532652/532652_property_page.jpg?1334869252",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/532653/532653_property_page.jpg?1334869263",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/532654/532654_property_page.jpg?1334869272",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/532655/532655_property_page.jpg?1334869284",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/532656/532656_property_page.jpg?1334869295",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/532657/532657_property_page.jpg?1334869308",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/532658/532658_property_page.jpg?1334869319",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/532659/532659_property_page.jpg?1334869331",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F16th-arr-trocadero%2Fapartment%2F45897%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45897",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "#177: 1 bedroom apartment in the 16 arr of Paris (Palais de Chaillot, Parc des Princes)",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [],
+      "occupancy": 8,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "wifi",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry",
+        "elevator"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.858803,
+        2.2866058
+      ],
+      "description": "This impressive apartments is ideally located in a the 16th district of Paris close to the well known Place du Trocadero from which esplanade is the most beautiful view of the Eiffel Tower and Champs de Mars. The 16th arrodissement is considered bourgeois and secure. It is worth to visit Chaillot and Marmottan Museums, its Arts Nouveau architecture by Guinard, especially along rue Lafontaine, Modernist architecture by le Corbusier and Perret and the shops of rue Passy.",
+      "pid": "roo45932",
+      "price": 1135,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514841/514841_property_page.jpg?1333427914",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514843/514843_property_page.jpg?1333427921",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514844/514844_property_page.jpg?1333427927",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514846/514846_property_page.jpg?1333427932",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514847/514847_property_page.jpg?1333427938",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514849/514849_property_page.jpg?1333427947",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514850/514850_property_page.jpg?1333427953",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514852/514852_property_page.jpg?1333427960",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514854/514854_property_page.jpg?1333427966",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514856/514856_property_page.jpg?1333427973",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514859/514859_property_page.jpg?1333427979",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514861/514861_property_page.jpg?1333427987",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514862/514862_property_page.jpg?1333427993",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514869/514869_property_page.jpg?1333428002",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514871/514871_property_page.jpg?1333428023",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514874/514874_property_page.jpg?1333428043",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514876/514876_property_page.jpg?1333428063",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514878/514878_property_page.jpg?1333428086",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514880/514880_property_page.jpg?1333428104",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514883/514883_property_page.jpg?1333428123",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514884/514884_property_page.jpg?1333428148",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514885/514885_property_page.jpg?1333428169",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514887/514887_property_page.jpg?1333428192",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514888/514888_property_page.jpg?1333428215",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514889/514889_property_page.jpg?1333428241",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514890/514890_property_page.jpg?1333428270",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514891/514891_property_page.jpg?1333428280",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514893/514893_property_page.jpg?1333428287",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514894/514894_property_page.jpg?1333428295",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514895/514895_property_page.jpg?1333428302",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514896/514896_property_page.jpg?1333428309",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514897/514897_property_page.jpg?1333428316",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514898/514898_property_page.jpg?1333428321",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514899/514899_property_page.jpg?1333428329",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514900/514900_property_page.jpg?1333428335",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F16th-arr-trocadero%2Fapartment%2F45932%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45932",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 4,
+      "heading": "#46: 4 bedroom apartment in the 16 arr of Paris (Palais de Chaillot, Parc des Princes)",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": 0,
+      "unavailable": [],
+      "occupancy": 4,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "tv",
+        "laundry"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8604154,
+        2.3499401
+      ],
+      "description": "The 4th district in Paris is often called by Parisians . This surprising combination of modern and antiquity represents Paris, the city of contrasts.&&&&Big and quiet studio of 37 m2 sleeps 1-4 people. It is located on the 5 floor. The building is equipped with code and interphone. This functional studio has the entrance hall; the American kitchen with a bar, the living room is combined with the bedroom.&&&&",
+      "pid": "roo45923",
+      "price": 177,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514568/514568_property_page.jpg?1333426033",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514569/514569_property_page.jpg?1333426040",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514570/514570_property_page.jpg?1333426050",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514571/514571_property_page.jpg?1333426057",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514572/514572_property_page.jpg?1333426062",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514574/514574_property_page.jpg?1333426067",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514575/514575_property_page.jpg?1333426073",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514576/514576_property_page.jpg?1333426079",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514577/514577_property_page.jpg?1333426086",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514579/514579_property_page.jpg?1333426093",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514580/514580_property_page.jpg?1333426099",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514581/514581_property_page.jpg?1333426105",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514582/514582_property_page.jpg?1333426111",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/514583/514583_property_page.jpg?1333426118",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F4th-arr-ile-de-la-citeile-st-louis-beaubourg%2Fapartment%2F45923%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "45923",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 1,
+      "heading": "#8: studio in the 4 arr of Paris (Notre-Dame de Paris, Île de la Cité)",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    },
+    {
+      "origin": "Paris",
+      "minimumStayNight": 1,
+      "pricePer": 1,
+      "bedCount": -1,
+      "unavailable": [],
+      "occupancy": 8,
+      "amenities": [
+        "bed_linen_and_towels",
+        "kitchen",
+        "internet",
+        "cabletv",
+        "tv",
+        "laundry"
+      ],
+      "provider": "roomorama",
+      "type": {
+        "roomType": "entire_place",
+        "propType": "apartment"
+      },
+      "latLng": [
+        48.8754061,
+        2.2963043
+      ],
+      "description": "This elegant and spacious apartment of 150m2 is located rue Beaujon in the 8st district of Paris. It is two steps away from the avenue des Champs Elys&amp;eacute;es and the Arc De Triomphe. The apartment is located on the 1st French floor of 19th century building equipped with the entrance code and elevator. A spacious entrance hall, a living room, a dining room, a separate kitchen, 3 bedroom, 2 bathroom. It sleeps 6 people. There is a possibility to have a breakfast at this apartment.",
+      "pid": "roo46000",
+      "price": 555,
+      "photos": [
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538612/538612_property_page.jpg?1334997112",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538613/538613_property_page.jpg?1334997125",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538614/538614_property_page.jpg?1334997137",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538615/538615_property_page.jpg?1334997149",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538616/538616_property_page.jpg?1334997160",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538617/538617_property_page.jpg?1334997170",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538618/538618_property_page.jpg?1334997181",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538619/538619_property_page.jpg?1334997193",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538620/538620_property_page.jpg?1334997204",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538621/538621_property_page.jpg?1334997215",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538622/538622_property_page.jpg?1334997226",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538623/538623_property_page.jpg?1334997238",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538624/538624_property_page.jpg?1334997250",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538625/538625_property_page.jpg?1334997260",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538626/538626_property_page.jpg?1334997271",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538627/538627_property_page.jpg?1334997282",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538628/538628_property_page.jpg?1334997293",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538629/538629_property_page.jpg?1334997302",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538630/538630_property_page.jpg?1334997313",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538631/538631_property_page.jpg?1334997324",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538632/538632_property_page.jpg?1334997336",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538633/538633_property_page.jpg?1334997348",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538634/538634_property_page.jpg?1334997359",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538635/538635_property_page.jpg?1334997373",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538636/538636_property_page.jpg?1334997385",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538637/538637_property_page.jpg?1334997397",
+          "caption": ""
+        },
+        {
+          "url": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/538638/538638_property_page.jpg?1334997408",
+          "caption": ""
+        }
+      ],
+      "link": "http://k.keyade.com/kack/1/?kaPt=custom&amp;kaTckM=da&amp;kaPcId=97622&amp;kaTckId=59421&amp;kaRdt=https%3A%2F%2Fwww.roomorama.com%2Fshort-term-rentals%2Fparis%2F8th-arr-champs-elysees%2Fapartment%2F46000%3Fchannel%3Doutpost%26utm_medium%3Daffiliate%26utm_source%3Doutpost",
+      "nid": "46000",
+      "country": "FR",
+      "bathroomCount": -1,
+      "bedroomCount": 3,
+      "heading": "#393: 3 bedroom apartment in the 8 arr of Paris (Champs Élysées, Arc de Triomphe, Lido, Avenue Montaigne)",
+      "typeAlias": {
+        "roomType": "Entire Place",
+        "propType": "Apartment"
+      }
+    }
+  ]
+}
