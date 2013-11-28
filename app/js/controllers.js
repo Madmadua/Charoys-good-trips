@@ -4,10 +4,8 @@
 
 var cgtControllers = angular.module('cgtControllers' , []);
 
-cgtControllers.controller('cgtCtrl', ['$scope', '$http', 
+cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 	function($scope, $http) {
-
-
 		
 	    $http({method: 'GET', url: 'items.json'}).
 	    success(function(data, status, headers, config) {
@@ -20,6 +18,12 @@ cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 	    	console.log(headers);
 	    	console.log(config);
 	    });
+
+	    $scope.search = function() {
+			$http.post('/proxy', {'url': 'http://api.outpost.travel/placeRentals?city=' + $scope.search_location}).success(function(data) {
+				$scope.items = data.items.splice(0,5);
+			});
+		};
 	}
 ]);
 
