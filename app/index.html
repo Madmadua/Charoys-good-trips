@@ -148,6 +148,40 @@
       <!-- /Google Map -->
 
 
+      <div class="row">
+        <div class="cgt-block cgt-block-violet">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h4>Icônes utiles ?</h4>
+            </div>
+
+            <p>
+              <span class="glyphicon glyphicon-signal"></span> Wifi
+              <br />
+
+              <span class="glyphicon glyphicon-road"></span> Parking
+              <br />
+
+              <span class="glyphicon glyphicon-thumbs-up"></span> Nice
+              <br />
+
+              <span class="glyphicon glyphicon-thumbs-down"></span> That sux
+              <br />
+
+              <span class="glyphicon glyphicon-usd"></span> $$$ :3
+              <br />
+
+              <span class="glyphicon glyphicon-plane"></span> (✿ ^.^)✿●•٠·˙
+              <br />
+
+              <span class="glyphicon glyphicon-globe"></span> The World is mine ★•  ♫♫  *♥*  ♫♫  •★
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+
       <!-- Template Item -->
       <div class="row">
         <div ng-repeat="item in items" class="cgt-block cgt-block-blanc">
@@ -164,8 +198,15 @@
                   <li>Localisation : ({{item.latLng[0]}}, {{item.latLng[1]}})</li>
                   <li>Type of room : {{item.typeAlias.roomType}}</li>
                   <li>Price : ${{item.price}}</li>
-                  <li>Wifi : <span ng-class="{invisible : item.amenities.indexOf('wifi') == -1}">Yes</span><span ng-class="{invisible : item.amenities.indexOf('wifi') > -1}">No</span></li>
-                  <li>Parking : <span ng-class="{invisible : item.amenities.indexOf('parking') == -1}">Yes</span><span ng-class="{invisible : item.amenities.indexOf('parking') > -1}">No</span></li>
+                  <li>
+                    Wifi : 
+                    <span class="glyphicon glyphicon-ok" ng-class="{invisible : item.amenities.indexOf('wifi') == -1}"></span>
+                    <span class="glyphicon glyphicon-remove" ng-class="{invisible : item.amenities.indexOf('wifi') > -1}"></span>
+                  </li>
+                  <li>
+                    Parking : 
+                    <span class="glyphicon glyphicon-ok" ng-class="{invisible : item.amenities.indexOf('parking') == -1}"></span>
+                    <span class="glyphicon glyphicon-remove" ng-class="{invisible : item.amenities.indexOf('parking') > -1}"></span></li>
                 </ul>
               </div>
 
