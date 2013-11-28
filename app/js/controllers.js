@@ -6,12 +6,12 @@ var cgtControllers = angular.module('cgtControllers', []);
 
 cgtControllers.controller('cgtCtrl', ['$scope', '$http', 
 	function($scope, $http) {
-
-
-		$http.post('/proxy', {'url': 'http://api.outpost.travel/placeRentals?city=Paris'}).success(function(data) {
-			$scope.items = data.items;
-		});
 		
 
+		$scope.search = function() {
+			$http.post('/proxy', {'url': 'http://api.outpost.travel/placeRentals?city=' + $scope.search_location}).success(function(data) {
+			$scope.items = data.items;
+		});
+		};
 	}
 ]);

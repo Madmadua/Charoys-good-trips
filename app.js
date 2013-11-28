@@ -317,7 +317,7 @@ app.get('/', function (req, res) {
 });
 
 // files
-app.get( /^\/([0-9A-z.\/]*)$/, function (req, res) {
+app.get( /^\/([0-9A-z.\-\/]*)$/, function (req, res) {
     res.sendfile(__dirname + '/app/'+ req.params[0] );
 });
 
