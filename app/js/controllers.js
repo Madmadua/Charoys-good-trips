@@ -8,19 +8,10 @@ cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 	function($scope, $http) {
 
 
+		$http.post('/proxy', {'url': 'http://api.outpost.travel/placeRentals?city=Paris'}).success(function(data) {
+			$scope.items = data.items;
+		});
 		
-	    $http({method: 'GET', url: 'items.json'}).
-	    success(function(data, status, headers, config) {
-	    	console.log(data);
-
-	    }).
-	    error(function(data, status, headers, config) {
-	    	console.log(data);
-	    	console.log(status);
-	    	console.log(headers);
-	    	console.log(config);
-	    });
-
 
 	}
 ]);
