@@ -62,18 +62,18 @@ body {
 
 
 .img-container{
-	width: 400px;
-	display: inline-block;
+    width: 400px;
+    display: inline-block;
 }
 
 .desc-container{
-	display: inline-block;
+    display: inline-block;
 }
 
 .options-container{
-	display: inline-block;
+    display: inline-block;
 }
 
 span.invisible{
-	display: none;
+    display: none;
 }
