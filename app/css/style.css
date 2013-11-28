@@ -90,7 +90,7 @@ Attention à la couleur du texte
     z-index: 2;
 }
 .img-container{
-	width: 400px;
+	width: 300px;
 	display: inline-block;
 }
 
@@ -102,6 +102,37 @@ Attention à la couleur du texte
 	display: inline-block;
 }
 
-span.invisible{
+.cache{
 	display: none;
+}
+
+#EmplacementItineraireCarte{
+	width:50%;
+	height: 400px;
+}
+
+#EmplacementItineraireTexte {
+	height: 50%;
+}
+
+.details{
+	background: url("/img/plus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 111px;
+    width: 111px;
+	border:none;
+	float: right;
+}
+.reduire{
+	background: url("/img/moins.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 111px;
+    width: 111px;
+	border:none;
+	float: right;
+}
+.img-voiture{
+	display: inline-block;
+}
+
+.voyage-voiture p{
+	display: inline-block;
 }
