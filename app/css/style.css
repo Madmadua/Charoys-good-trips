@@ -67,11 +67,11 @@ body {
 }
 
 .desc-container{
-    display: inline-block;
+	display: inline-block;
 }
 
 .options-container{
-    display: inline-block;
+	display: inline-block;
 }
 
 .cache{

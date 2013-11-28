@@ -148,6 +148,7 @@
         </div>
       </div>
       <!-- /Google Map -->
+
 		<div class="header-destination row cgt-block cgt-block-gris">
 			City : {{search_location}}, Date : , People :  
 		</div>
@@ -160,6 +161,41 @@
 				<div id="EmplacementItineraireTexte" ng-class="{cache : !details}"></div>
 			</div>
 		</div>
+
+      <div class="row">
+        <div class="cgt-block cgt-block-violet">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h4>Icônes utiles ?</h4>
+            </div>
+
+            <p>
+              <span class="glyphicon glyphicon-signal"></span> Wifi
+              <br />
+
+              <span class="glyphicon glyphicon-road"></span> Parking
+              <br />
+
+              <span class="glyphicon glyphicon-thumbs-up"></span> Nice
+              <br />
+
+              <span class="glyphicon glyphicon-thumbs-down"></span> That sux
+              <br />
+
+              <span class="glyphicon glyphicon-usd"></span> $$$ :3
+              <br />
+
+              <span class="glyphicon glyphicon-plane"></span> (✿ ^.^)✿●•٠·˙
+              <br />
+
+              <span class="glyphicon glyphicon-globe"></span> The World is mine ★•  ♫♫  *♥*  ♫♫  •★
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+
       <!-- Template Item -->
       <div class="row">
         <div ng-repeat="item in items" class="cgt-block cgt-block-blanc">
@@ -167,23 +203,32 @@
             <div class="page-header">
               {{item.typeAlias.propType}} in {{item.origin}}, {{item.country}} for {{item.occupancy}} people
             </div>
-		  <div class="page-container">
-			<img src="{{item.photos[0].url}}" alt="" class="img-container"/>
-			<div class="desc-container">
-				<ul>
-					<li>Localisation : ({{item.latLng[0]}}, {{item.latLng[1]}})</li>
-					<li>Type of room : {{item.typeAlias.roomType}}</li>
-					<li>Price : ${{item.price}}</li>
 
-				  <li>Wifi : <span ng-class="{cache : item.amenities.indexOf('wifi') == -1}">Yes</span><span ng-class="{cache : item.amenities.indexOf('wifi') > -1}">No</span></li>
+            <div class="page-container">
+              <img src="{{item.photos[0].url}}" alt="" class="img-container"/>
 
-					<li>Parking : <span ng-class="{cache : item.amenities.indexOf('parking') == -1}">Yes</span><span ng-class="{cache : item.amenities.indexOf('parking') > -1}">No</span></li>
-				</ul>
-			</div>
-			<div class="options-container">
-			Vote :
-			</div>
-		  </div>
+              <div class="desc-container">
+                <ul>
+                  <li>Localisation : ({{item.latLng[0]}}, {{item.latLng[1]}})</li>
+                  <li>Type of room : {{item.typeAlias.roomType}}</li>
+                  <li>Price : ${{item.price}}</li>
+                  <li>
+                    Wifi : 
+                    <span class="glyphicon glyphicon-ok" ng-class="{cache : item.amenities.indexOf('wifi') == -1}"></span>
+                    <span class="glyphicon glyphicon-remove" ng-class="{cache : item.amenities.indexOf('wifi') > -1}"></span>
+                  </li>
+                  <li>
+                    Parking : 
+                    <span class="glyphicon glyphicon-ok" ng-class="{cache : item.amenities.indexOf('parking') == -1}"></span>
+                    <span class="glyphicon glyphicon-remove" ng-class="{cache : item.amenities.indexOf('parking') > -1}"></span></li>
+                </ul>
+              </div>
+
+              <div class="options-container">
+                Vote :
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <!-- /Template Item -->
