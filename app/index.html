@@ -152,18 +152,28 @@
       </div>
       <!-- /Google Map -->
 
-		<div class="header-destination row cgt-block cgt-block-gris">
-			City : {{search_location}}, Date : , People :  
-		</div>
-		<div class="row">
-			<div class="voyage_voiture block Ue cgt-block cgt-block-blanc" ng-class="{cache : !search_location}">
-				<img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
-				<span>Voyager en voiture</span>
-				<button class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
-				<div id="EmplacementItineraireCarte" class="cache"></div>
-				<div id="EmplacementItineraireTexte" ng-class="{cache : !details}"></div>
-			</div>
-		</div>
+
+      <div class="row">
+        <div class="cgt-block cgt-block-vert">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h4>City : {{search_location}}, Date : , People :  </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="cgt-block cgt-block-blanc voyage_voiture" ng-class="{cache : !search_location}">
+          <img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
+          <span>Voyager en voiture</span>
+          <button class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
+          <div id="EmplacementItineraireCarte" class="cache"></div>
+          <div id="EmplacementItineraireTexte" ng-class="{cache : !details}"></div>
+        </div>
+      </div>
+
 
       <div class="row">
         <div class="cgt-block cgt-block-violet">
