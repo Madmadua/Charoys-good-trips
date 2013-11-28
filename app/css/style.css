@@ -101,3 +101,7 @@ Attention à la couleur du texte
 .options-container{
 	display: inline-block;
 }
+
+span.invisible{
+	display: none;
+}
