@@ -63,3 +63,16 @@ Attention à la couleur du texte
 	color: #fff;
 	background-color: #53A93F;
 }
+
+.img-container{
+	width: 400px;
+	display: inline-block;
+}
+
+.desc-container{
+	display: inline-block;
+}
+
+.options-container{
+	display: inline-block;
+}
