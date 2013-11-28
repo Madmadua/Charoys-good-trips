@@ -1,8 +1,8 @@
-var express = require('express')
+var   express = require('express')
     , app = express()
     , http = require('http')
     , server = http.createServer(app)
-
+    , restler = require('restler')
 
 console.log( 'starting application' );
 
@@ -303,14 +303,22 @@ app.put('/groups/:groupHash/users/:userHash', function (req, res) {
 });
 
 
+// proxy
+app.post('/proxy', function (req, res) {     
+    restler.get( req.body.url , {})
+    .on('complete', function (data) {
+        res.json(data)
+    });
+});
+
 // index page
 app.get('/', function (req, res) {
-    res.sendfile(__dirname + '/index.html');
+    res.sendfile(__dirname + '/app/index.html');
 });
 
 // files
 app.get( /^\/([0-9A-z.\/]*)$/, function (req, res) {
-    res.sendfile(__dirname + '/'+ req.params[0] );
+    res.sendfile(__dirname + '/app/'+ req.params[0] );
 });
 
 
