@@ -28,7 +28,7 @@ cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 
 	    	// max_results = 5
 	    	
-			$http.post('/proxy', {'url': 'http://api.outpost.travel/placeRentals?city=' + str + '&occupancy=' + $scope.search_nb_guests}).success(function(data) {
+			$http.post('/proxy', {'url': 'http://api.outpost.travel/placeRentals?city=' + str}).success(function(data) {
 				$scope.items = data.items.splice(0,5);
 				/*$scope.items.forEach(function(item) {
 			      alert(item);
