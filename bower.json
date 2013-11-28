@@ -1,0 +1,14 @@
+{
+  "name": "Charoy_s_Good_Trip",
+  "version": "0.0.1",
+  "description": "...",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.2.3",
+    "bootstrap": "~3.0.2"
+  }
+}
