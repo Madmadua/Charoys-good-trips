@@ -98,11 +98,17 @@
           </div>
 
           <div class="col-lg-2">
-            <input type="text" class="form-control input-lg" id="search_check_in" ng-model="search_check_in" placeholder="Check in" autocomplete="off" />
+            <div class="input-group">
+              <input type="text" class="form-control input-lg" id="search_check_in" ng-model="search_check_in" placeholder="Check in" autocomplete="off" />
+              <span class="input-group-addon glyphicon glyphicon-calendar"></span>
+            </div>            
           </div>
 
           <div class="col-lg-2">
-            <input type="text" class="form-control input-lg" id="search_check_out" ng-model="search_check_out" placeholder="Check out" autocomplete="off" />
+            <div class="input-group">
+              <input type="text" class="form-control input-lg" id="search_check_out" ng-model="search_check_out" placeholder="Check out" autocomplete="off" />
+              <span class="input-group-addon glyphicon glyphicon-calendar"></span>
+            </div>
           </div>
 
           <div class="col-lg-2">
@@ -127,7 +133,7 @@
           </div>
 
           <div class="col-lg-2">
-            <button type="button" ng-click="search()" class="btn btn-default btn-lg btn-block">Search</button>
+            <button type="button" ng-click="search()" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-search"></span> Search</button>
           </div>
         </form>
       </div>
