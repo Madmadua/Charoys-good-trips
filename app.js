@@ -25,15 +25,42 @@ var store=(function(){
     var Trip = function Trip( options ){
 
         this.authorId = options.authorId
-        this.name = options.name || unamed
+        this.name = options.name || 'unamed'
         this.id = 'trip-'+( uid ++ )
-        this.vote = []
-        this.meanVote = 0
+        this.city = 'Nancy'
+        this.date = new Date()
+        this.transports = []
+        this.acomodations = []
+
     }
     Trip.prototype={
         toJSON:function(){
 
-            return '{"name":"'+this.name+'","id":"'+this.id+'","authorId":"'+this.authorId+'"}'
+            var ts=""
+            for( var h in this.transports )
+                ts+= ','+this.transports[ h ].toJSON()
+
+            var as=""
+            for( var h in this.acomodations )
+                as+= ','+this.acomodations[ h ].toJSON()
+
+            return '{'+[
+                '"name":"'+this.name+'"',
+                '"id":"'+this.id+'"',
+                '"city":"'+this.city+'"',
+                '"date":"'+this.date+'"',
+                '"authorId":"'+this.authorId+'"',
+                '"transports":['+ ts.substr(1) +']',
+                '"acomodations":['+ as.substr(1) +']',
+            ].join(',')+'}'
+        },
+        parse:function(attr){
+            var p=['name','city','date'],o={};
+
+            for(var i=p.length;i--;)
+                if( attr[ p[i] ] )
+                    o[ p[i] ]=attr[ p[i] ]
+            return o
         },
         set:function(key,value,options){
             if( typeof(key)=='object' )
@@ -41,7 +68,11 @@ var store=(function(){
             else
                 key=[value]
 
-            this[ key ] = value;
+            if( options || options.parse )
+                key = this.parse( key )
+
+            for( var i in key )
+                this[ i ] = key[ i ];
         },
     }
 
@@ -65,7 +96,8 @@ var store=(function(){
             else
                 key=[value]
 
-            this[ key ] = value;
+            for( var i in key )
+                this[ i ] = key[ i ];
         },
     }
 
@@ -92,7 +124,7 @@ var store=(function(){
 
             trip.parent = this
 
-            return this.users[ trip.id ] = trip
+            return this.trips[ trip.id ] = trip
         },
 
         getTrip:function( options ){
@@ -159,7 +191,8 @@ var store=(function(){
             else
                 key=[value]
 
-            this[ key ] = value;
+            for( var i in key )
+                this[ i ] = key[ i ];
         },
 
         toJSON:function(){
@@ -168,7 +201,11 @@ var store=(function(){
             for( var h in this.users )
                 us+= ','+this.users[ h ].toJSON()
 
-            return '{"hash":"'+this.hash+'","name":"'+this.name+'","id":"'+this.id+'","users":[' + us.substr( 1 ) + ']}'
+            var ts=""
+            for( var h in this.trips )
+                ts+= ','+this.trips[ h ].toJSON()
+
+            return '{"hash":"'+this.hash+'","name":"'+this.name+'","id":"'+this.id+'","users":[' + us.substr( 1 ) + '],"trips":[' + ts.substr( 1 ) + ']}'
         },
     }
 
@@ -249,7 +286,7 @@ app.put('/groups/:groupHash', function (req, res) {
 
     for(var i=p.length;i--;)
         if( req.body[ p[i] ] )
-            o[i]=req.body[i]
+            o[ p[i] ]=req.body[ p[i] ]
 
     if( grp )
         grp.set( o )
@@ -294,13 +331,66 @@ app.put('/groups/:groupHash/users/:userHash', function (req, res) {
 
     for(var i=p.length;i--;)
         if( req.body[ p[i] ] )
-            o[i]=req.body[i]
+            o[ p[i] ]=req.body[ p[i] ]
 
 
     user.set( o )
 
     res.send( user ? user.toJSON() : '{}' );
 });
+
+
+
+/**
+ * trips related request
+ */
+app.put('/groups/:groupHash/trips', function (req, res) {
+    var grp = store.getGroup({
+        hash: req.params.groupHash
+    })
+
+    if( !grp )
+        return res.send( '{}' );
+
+    var trip = grp.createTrip( req.body )
+
+    res.send( trip ? trip.toJSON() : '{}' );
+});
+app.get('/groups/:groupHash/trips/:tripId', function (req, res) {
+    var grp = store.getGroup({
+        hash: req.params.groupHash
+    })
+
+    if( !grp )
+        return res.send( '{}' );
+
+    var trip = grp.getTrip({
+        id : req.params.tripId,
+    })
+
+    res.send( trip ? trip.toJSON() : '{}' );
+});
+app.put('/groups/:groupHash/trips/:tripId', function (req, res) {
+    var grp = store.getGroup({
+        hash: req.params.groupHash
+    })
+
+    if( !grp )
+        return res.send( '{}' );
+
+    var trip = grp.getTrip({
+        id : req.params.tripId,
+    })
+
+    if( !trip )
+        return res.send( '{}' );
+
+    trip.set( req.body , {'parse':true} )
+
+    res.send( trip ? trip.toJSON() : '{}' );
+});
+
+
 
 
 // proxy
