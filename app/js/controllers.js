@@ -8,6 +8,7 @@ cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 	function($scope, $http) {
 		
 		$scope.search_location = "Paris";
+		$scope.search_nb_guests = 1;
 
 	    $scope.search = function() {
 
