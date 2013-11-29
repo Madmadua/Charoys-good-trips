@@ -10,3 +10,10 @@ Thumbs.db
 .sass-cache
 node_modules
 #bower_components
+
+bower_components/*
+
+!bower_components/bootstrap/dist/css/bootstrap.min.css
+!bower_components/jquery/jquery.min.js
+!bower_components/jquery-ui/ui/minified/jquery-ui.min.js
+!bower_components/bootstrap/dist/*
