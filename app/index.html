@@ -95,180 +95,237 @@
        
         
       
-
+		<div class="contenu">
       <!-- Search Menu -->
-	  <div class="row">
-		  <div class="cgt-block cgt-block-gris">
-			<form role="form" id="search-form" ng-submit="search()">
-			  <div class="col-lg-4">
-				<input type="text" class="form-control input-lg" id="search_location" ng-model="search_location" placeholder="Where do you want to go ?" autocomplete="off" />
-			  </div>
+		  <div class="row">
+			  <div class="cgt-block cgt-block-gris">
+				<form role="form" id="search-form" ng-submit="search()">
+				  <div class="col-lg-4">
+					<input type="text" class="form-control input-lg" id="search_location" ng-model="search_location" placeholder="Where do you want to go ?" autocomplete="off" />
+				  </div>
 
-			  <div class="col-lg-2">
-				<div class="input-group">
-				  <input type="text" class="form-control input-lg" id="search_check_in" ng-model="search_check_in" placeholder="Check in" autocomplete="off" />
-				  <span class="input-group-addon glyphicon glyphicon-calendar"></span>
-				</div>            
-			  </div>
+				  <div class="col-lg-2">
+					<div class="input-group">
+					  <input type="text" class="form-control input-lg" id="search_check_in" ng-model="search_check_in" placeholder="Check in" autocomplete="off" />
+					  <span class="input-group-addon glyphicon glyphicon-calendar"></span>
+					</div>            
+				  </div>
 
-			  <div class="col-lg-2">
-				<div class="input-group">
-				  <input type="text" class="form-control input-lg" id="search_check_out" ng-model="search_check_out" placeholder="Check out" autocomplete="off" />
-				  <span class="input-group-addon glyphicon glyphicon-calendar"></span>
+				  <div class="col-lg-2">
+					<div class="input-group">
+					  <input type="text" class="form-control input-lg" id="search_check_out" ng-model="search_check_out" placeholder="Check out" autocomplete="off" />
+					  <span class="input-group-addon glyphicon glyphicon-calendar"></span>
+					</div>
+				  </div>
+
+				  <div class="col-lg-2">
+					<select class="form-control input-lg" id="search_nb_guest" ng-init="search_nb_guests=1" data-ng-model="search_nb_guests">
+					  <option value="1">1 guest</option>
+					  <option value="2">2 guests</option>
+					  <option value="3">3+ guests</option>
+					</select>
+				  </div>
+
+				  <div class="col-lg-2">
+					<input type="submit" class="hidden">
+					<button type="button" id="search-submit" ng-click="search()" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-search"></span> Search</button>
+				  </div>
+				</form>
+			  </div>
+		  </div>
+		  <!-- /Search Menu -->
+
+
+		  <!-- Google Map -->
+		  <div class="row">
+			<div class="cgt-block cgt-block-blanc">
+			  <div class="col-lg-12">
+				<div id="cgt-gl-map" style="width:100%; height:400px"></div>
+			  </div>
+			</div>
+		  </div>
+		  <!-- /Google Map -->
+
+
+		  <div class="row">
+			<div class="cgt-block cgt-block-vert">
+			  <div class="col-lg-12">
+				<div class="page-header">
+				  <h4>City : {{search_location}}, Date : , People :  {{search_nb_guests}}</h4>
 				</div>
 			  </div>
+			</div>
+		  </div>
 
-			  <div class="col-lg-2">
-				<select class="form-control input-lg" id="search_nb_guest" ng-init="search_nb_guests=1" data-ng-model="search_nb_guests">
-				  <option value="1">1 guest</option>
-				  <option value="2">2 guests</option>
-				  <option value="3">3+ guests</option>
-				</select>
+
+		  <div class="row">
+			<div class="cgt-block cgt-block-blanc voyage_velo" ng-class="{cache : !search_location}">
+			  <img src="./img/icone-velo.jpg" alt="velo" class="img-voiture"/>
+
+
+			  <span id="voyage-velo">Voyager en vélo</span>
+
+			  <div id="voyage-velo-details" style="display: inline;">
+				, <span class="glyphicon glyphicon-time"></span> <span id="voyage-velo-temps"></span>
+				<span class="glyphicon glyphicon-map-marker"></span> <span id="voyage-velo-distance"></span>
 			  </div>
 
-			  <div class="col-lg-2">
-				<input type="submit" class="hidden">
-				<button type="button" id="search-submit" ng-click="search()" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-search"></span> Search</button>
+			  <button id="button_voyager_velo" class="details" ng-click="details_velo=!details_velo" ng-class="{reduire : details_velo}"></button>
+			  <div id="itineraire-velo-texte" ng-class="{cache : !details_velo}"></div>
+
+			</div>
+		  </div>
+
+
+		  <div class="row">
+			<div class="cgt-block cgt-block-blanc voyage_voiture" ng-class="{cache : !search_location}">
+			  <img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
+
+			  <span id="voyage-voiture">Voyager en voiture</span>
+
+			  <div id="voyage-voiture-details" style="display: inline;">
+				, <span class="glyphicon glyphicon-time"></span> <span id="voyage-voiture-temps"></span>
+				<span class="glyphicon glyphicon-map-marker"></span> <span id="voyage-voiture-distance"></span>
 			  </div>
-			</form>
+
+			  <button id="button_voyager" class="details" ng-click="details_voiture=!details_voiture" ng-class="{reduire : details_voiture}"></button>
+			  <div id="itineraire-voiture-texte" ng-class="{cache : !details_voiture}"></div>
+			</div>
+		  </div>
+		  
+		
+
+		
+
+		<!--
+		  <div class="row">
+			<div class="cgt-block cgt-block-violet">
+			  <div class="col-lg-12">
+				<div class="page-header">
+				  <h4>Icônes utiles ?</h4>
+				</div>
+
+				<p>
+				  <span class="glyphicon glyphicon-signal"></span> Wifi
+				  <br />
+
+				  <span class="glyphicon glyphicon-road"></span> Parking
+				  <br />
+
+				  <span class="glyphicon glyphicon-thumbs-up"></span> Nice
+				  <br />
+
+				  <span class="glyphicon glyphicon-thumbs-down"></span> That sux
+				  <br />
+
+				  <span class="glyphicon glyphicon-usd"></span> $$$ :3
+				  <br />
+
+				  <span class="glyphicon glyphicon-plane"></span> (✿ ^.^)✿●•٠·˙
+				  <br />
+
+				  <span class="glyphicon glyphicon-globe"></span> The World is mine ★•  ♫♫  *♥*  ♫♫  •★
+				  <br />
+				</p>
+			  </div>
+			</div>
+		  </div>
+			-->
+		  
+		  <!-- Template Item -->
+		  <div class="row">
+			<div ng-repeat="item in items" class="cgt-block cgt-block-blanc">
+			  <div class="col-lg-12">
+				<div class="page-header">
+				  {{item.typeAlias.propType}} in {{item.origin}}, {{item.country}} for {{item.occupancy}} people
+				</div>
+
+				<div class="page-container">
+				  <img src="{{item.photos[0].url}}" alt="" class="img-container"/>
+
+				  <div class="desc-container">
+					<ul>
+					  <li><span class="glyphicon glyphicon-globe"></span> Localisation : ({{item.latLng[0]}}, {{item.latLng[1]}})</li>
+					  <li>Type of room : {{item.typeAlias.roomType}}</li>
+					  <li><span class="glyphicon glyphicon-usd"></span> Price : ${{item.price}}</li>
+					  <li>
+						<span class="glyphicon glyphicon-signal"></span> Wifi : 
+						<span class="glyphicon glyphicon-ok" ng-class="{cache : item.amenities.indexOf('wifi') == -1}"></span>
+						<span class="glyphicon glyphicon-remove" ng-class="{cache : item.amenities.indexOf('wifi') > -1}"></span>
+					  </li>
+					  <li>
+						<span class="glyphicon glyphicon-road"></span> Parking : 
+						<span class="glyphicon glyphicon-ok" ng-class="{cache : item.amenities.indexOf('parking') == -1}"></span>
+						<span class="glyphicon glyphicon-remove" ng-class="{cache : item.amenities.indexOf('parking') > -1}"></span></li>
+					</ul>
+				  </div>
+
+				  <div class="options-container">
+					Vote :
+				  </div>
+				</div>
+			  </div>
+			</div>
 		  </div>
 	  </div>
-      <!-- /Search Menu -->
-
-
-      <!-- Google Map -->
-      <div class="row">
-        <div class="cgt-block cgt-block-blanc">
-          <div class="col-lg-12">
-            <div id="cgt-gl-map" style="width:100%; height:400px"></div>
-          </div>
-        </div>
-      </div>
-      <!-- /Google Map -->
-
-
-      <div class="row">
-        <div class="cgt-block cgt-block-vert">
-          <div class="col-lg-12">
-            <div class="page-header">
-              <h4>City : {{search_location}}, Date : , People :  {{search_nb_guests}}</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="cgt-block cgt-block-blanc voyage_velo" ng-class="{cache : !search_location}">
-          <img src="./img/icone-velo.jpg" alt="velo" class="img-voiture"/>
-
-
-          <span id="voyage-velo">Voyager en vélo</span>
-
-          <div id="voyage-velo-details" style="display: inline;">
-            , <span class="glyphicon glyphicon-time"></span> <span id="voyage-velo-temps"></span>
-            <span class="glyphicon glyphicon-map-marker"></span> <span id="voyage-velo-distance"></span>
-          </div>
-
-          <button id="button_voyager_velo" class="details" ng-click="details_velo=!details_velo" ng-class="{reduire : details_velo}"></button>
-          <div id="itineraire-velo-texte" ng-class="{cache : !details_velo}"></div>
-
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="cgt-block cgt-block-blanc voyage_voiture" ng-class="{cache : !search_location}">
-          <img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
-
-          <span id="voyage-voiture">Voyager en voiture</span>
-
-          <div id="voyage-voiture-details" style="display: inline;">
-            , <span class="glyphicon glyphicon-time"></span> <span id="voyage-voiture-temps"></span>
-            <span class="glyphicon glyphicon-map-marker"></span> <span id="voyage-voiture-distance"></span>
-          </div>
-
-          <button id="button_voyager" class="details" ng-click="details_voiture=!details_voiture" ng-class="{reduire : details_voiture}"></button>
-          <div id="itineraire-voiture-texte" ng-class="{cache : !details_voiture}"></div>
-        </div>
-      </div>
-	  
-    
-
-    
-
-	<!--
-      <div class="row">
-        <div class="cgt-block cgt-block-violet">
-          <div class="col-lg-12">
-            <div class="page-header">
-              <h4>Icônes utiles ?</h4>
-            </div>
-
-            <p>
-              <span class="glyphicon glyphicon-signal"></span> Wifi
-              <br />
-
-              <span class="glyphicon glyphicon-road"></span> Parking
-              <br />
-
-              <span class="glyphicon glyphicon-thumbs-up"></span> Nice
-              <br />
-
-              <span class="glyphicon glyphicon-thumbs-down"></span> That sux
-              <br />
-
-              <span class="glyphicon glyphicon-usd"></span> $$$ :3
-              <br />
-
-              <span class="glyphicon glyphicon-plane"></span> (✿ ^.^)✿●•٠·˙
-              <br />
-
-              <span class="glyphicon glyphicon-globe"></span> The World is mine ★•  ♫♫  *♥*  ♫♫  •★
-              <br />
-            </p>
-          </div>
-        </div>
-      </div>
-		-->
-      
-      <!-- Template Item -->
-      <div class="row">
-        <div ng-repeat="item in items" class="cgt-block cgt-block-blanc">
-          <div class="col-lg-12">
-            <div class="page-header">
-              {{item.typeAlias.propType}} in {{item.origin}}, {{item.country}} for {{item.occupancy}} people
-            </div>
-
-            <div class="page-container">
-              <img src="{{item.photos[0].url}}" alt="" class="img-container"/>
-
-              <div class="desc-container">
-                <ul>
-                  <li><span class="glyphicon glyphicon-globe"></span> Localisation : ({{item.latLng[0]}}, {{item.latLng[1]}})</li>
-                  <li>Type of room : {{item.typeAlias.roomType}}</li>
-                  <li><span class="glyphicon glyphicon-usd"></span> Price : ${{item.price}}</li>
-                  <li>
-                    <span class="glyphicon glyphicon-signal"></span> Wifi : 
-                    <span class="glyphicon glyphicon-ok" ng-class="{cache : item.amenities.indexOf('wifi') == -1}"></span>
-                    <span class="glyphicon glyphicon-remove" ng-class="{cache : item.amenities.indexOf('wifi') > -1}"></span>
-                  </li>
-                  <li>
-                    <span class="glyphicon glyphicon-road"></span> Parking : 
-                    <span class="glyphicon glyphicon-ok" ng-class="{cache : item.amenities.indexOf('parking') == -1}"></span>
-                    <span class="glyphicon glyphicon-remove" ng-class="{cache : item.amenities.indexOf('parking') > -1}"></span></li>
-                </ul>
-              </div>
-
-              <div class="options-container">
-                Vote :
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- /Template Item -->
+	<div class="chatroom">
+        <div class="col-lg-3">
+          <!-- Users -->
+          <div id="users">
 
+          </div>
+          <!-- /Users -->
+
+          <!-- Formulaire -->
+          <form id="loginForm">
+            <div class="form-group line-form">
+              <label for="username">Username</label>
+              <input class="form-control" name="username" id="username" />
+            </div>
+
+            <div class="form-group cache">
+              <label for="password">Password</label>
+              <input class="form-control" type="password" name="password" id="password" />
+            </div>
+
+            <div class="form-group line-form">
+              <label for="password">Room</label>
+              <input class="form-control" name="room" id="room" />
+            </div>
+
+            <div class="form-group line-form">
+              <input type="submit" class="btn btn-lg btn-block btn-primary" />
+            </div>
+          </form>
+          <!-- /Formulaire -->
+        </div>
+
+        <div class="col-lg-9">
+          <form id="messageForm">
+            <div class="form-group">
+              <label for="message"></label>
+              <input class="form-control" name="message" autocomplete="off" id="message" />
+            </div>
+
+            <div class="form-group">
+              <input type="submit" class="btn btn-lg btn-block btn-primary" />
+            </div>
+          </form>
+
+
+          <div id="messages">
+
+            <!-- Template pr les messages, voir mustache.js -->
+            <div class="message" id="msg_tpl" style="display: none">
+              <p><strong>{{user.username}}</strong><small>{{h}}:{{m}}</small></p>
+              <blockquote>{{message}}</blockquote>
+            </div>
+            <!-- /Template -->
+
+          </div>
+        </div>
+      </div>
     </div>
     <!-- /Container -->
 
@@ -301,6 +358,11 @@
     <script src="js/services.js"></script>
     <script src="js/filters.js"></script>
     <script src="js/app.js"></script>
+	<script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/mustache/mustache.js"></script>
+    <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+
+    <script src="js/client.js"></script>
 
 	  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 

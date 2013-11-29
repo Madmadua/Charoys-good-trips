@@ -8,6 +8,7 @@ var cgtApp = angular.module('cgtApp', [
     'cgtControllers'
 ]);
 
+
 /*
 cgtApp.config(['$routeProvider',
     function($routeProvider) {
