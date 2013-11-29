@@ -7,16 +7,15 @@ var cgtControllers = angular.module('cgtControllers' , []);
 cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 	function($scope, $http) {
 		
-		$scope.search_location = "Paris"
+		$scope.search_location = "Paris";
 
 	    $scope.search = function() {
 
-	    	$scope.room.trips.push({
+	    	/*$scope.room.trips.push({
 	    		city : $scope.search_location,
 	    		acomodations : [],
 	    		transports : []
-	    	})
-
+	    	})*/
 	    	var str = $scope.search_location;
 
 	    	if (str.indexOf('-') == -1) {
@@ -40,7 +39,7 @@ cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 				
 
 
-				var acom = $scope.room.trips[0].acomodations;
+				/*var acom = $scope.room.trips[0].acomodations;
 
 				acom.splice( 0 , acom.length )
 
@@ -55,8 +54,26 @@ cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 						link : item.link,
 						price : item.price
 					})
-				}
-
+				}*/
+				/*$scope.index=0;
+				data.items.forEach(function(item){
+					if($scope.index < 5){
+						alert(item.occupancy+' '+$scope.search_nb_guests.selected);
+						if(item.occupancy == $scope.search_nb_guests){
+							$scope.items[$scope.index] = item;
+							$scope.index++;
+						}
+						else{
+							if($scope.search_nb_guests == 3){
+								if(item.occupancy >= $scope.search_nb_guests){
+									$scope.items[$scope.index] = item;
+									$scope.index++;
+								}
+							}
+						}
+					}
+				});*/
+				$scope.items = data.items.splice(0,5);
 
 				/*$scope.items.forEach(function(item) {
 			      alert(item);

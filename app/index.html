@@ -119,23 +119,10 @@
 			  </div>
 
 			  <div class="col-lg-2">
-				<select class="form-control input-lg" id="search_nb_guest" ng-init="search_nb_guests=1" ng-model="search_nb_guests">
+				<select class="form-control input-lg" id="search_nb_guest" ng-init="search_nb_guests=1" data-ng-model="search_nb_guests">
 				  <option value="1">1 guest</option>
 				  <option value="2">2 guests</option>
-				  <option value="3">3 guests</option>
-				  <option value="4">4 guests</option>
-				  <option value="5">5 guests</option>
-				  <option value="6">6 guests</option>
-				  <option value="7">7 guests</option>
-				  <option value="8">8 guests</option>
-				  <option value="9">9 guests</option>
-				  <option value="10">10 guests</option>
-				  <option value="11">11 guests</option>
-				  <option value="12">12 guests</option>
-				  <option value="13">13 guests</option>
-				  <option value="14">14 guests</option>
-				  <option value="15">15 guests</option>
-				  <option value="16">16+ guests</option>
+				  <option value="3">3+ guests</option>
 				</select>
 			  </div>
 
@@ -164,7 +151,7 @@
         <div class="cgt-block cgt-block-vert">
           <div class="col-lg-12">
             <div class="page-header">
-              <h4>City : {{search_location}}, Date : , People :  </h4>
+              <h4>City : {{search_location}}, Date : , People :  {{search_nb_guests}}</h4>
             </div>
           </div>
         </div>
@@ -179,7 +166,7 @@
           <span id="voyage-velo">Voyager en vélo</span>
 
           <div id="voyage-velo-details" style="display: inline;">
-            <span class="glyphicon glyphicon-time"></span> <span id="voyage-velo-temps"></span>
+            , <span class="glyphicon glyphicon-time"></span> <span id="voyage-velo-temps"></span>
             <span class="glyphicon glyphicon-map-marker"></span> <span id="voyage-velo-distance"></span>
           </div>
 
@@ -197,7 +184,7 @@
           <span id="voyage-voiture">Voyager en voiture</span>
 
           <div id="voyage-voiture-details" style="display: inline;">
-            <span class="glyphicon glyphicon-time"></span> <span id="voyage-voiture-temps"></span>
+            , <span class="glyphicon glyphicon-time"></span> <span id="voyage-voiture-temps"></span>
             <span class="glyphicon glyphicon-map-marker"></span> <span id="voyage-voiture-distance"></span>
           </div>
 
@@ -210,7 +197,7 @@
 
     
 
-
+	<!--
       <div class="row">
         <div class="cgt-block cgt-block-violet">
           <div class="col-lg-12">
@@ -243,7 +230,7 @@
           </div>
         </div>
       </div>
-
+		-->
       
       <!-- Template Item -->
       <div class="row">
