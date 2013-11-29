@@ -7,7 +7,15 @@ var cgtControllers = angular.module('cgtControllers' , []);
 cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 	function($scope, $http) {
 		
+		$scope.search_location = "Paris"
+
 	    $scope.search = function() {
+
+	    	$scope.room.trips.push({
+	    		city : $scope.search_location,
+	    		acomodations : [],
+	    		transports : []
+	    	})
 
 	    	var str = $scope.search_location;
 
@@ -29,7 +37,27 @@ cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 	    	// max_results = 5
 	    	
 			$http.post('/proxy', {'url': 'http://api.outpost.travel/placeRentals?city=' + str}).success(function(data) {
-				$scope.items = data.items.splice(0,5);
+				
+
+
+				var acom = $scope.room.trips[0].acomodations;
+
+				acom.splice( 0 , acom.length )
+
+				for( var i=Math.min( 5 , data.items.length );i--;){
+					var item = data.items[i];
+					acom.unshift({
+						latLng : item.latLng,
+						photo : item.photos[0].url,
+						heading : item.heading,
+						wifi : item.amenities.indexOf('wifi') >= 0,
+						parking : item.amenities.indexOf('parking') >= 0,
+						link : item.link,
+						price : item.price
+					})
+				}
+
+
 				/*$scope.items.forEach(function(item) {
 			      alert(item);
 			      item.latLng = item.latLng.replace('[', "(");
@@ -66,8 +94,10 @@ cgtControllers.controller('cRessource', ['$scope','$http',
 			},
 
 			save:function( self , url ){
-				var that = this;
-				$http({ data : self , method: 'PUT', url: url })
+
+				if( ! url )
+					url = $scope.url()
+				$http({ data : $scope.parse(self) , method: 'PUT', url: url })
 				.success(function(data, status, headers, config) {
 					op.hydrate( self , data )
 				})
@@ -76,6 +106,10 @@ cgtControllers.controller('cRessource', ['$scope','$http',
 		}
 
 		$scope.op = op;
+
+		$scope.parse=function(x){
+			return x;
+		}
 	}
 ]);
 
@@ -100,6 +134,13 @@ cgtControllers.controller('atriumCtrl', ['$scope',
 				"/groups/"+( RoomHash )
 			)
 		}
+
+		$scope.parse = function( room ){
+			var p =[ 'name' ],o={};
+			for(var i=p.length;i--;)
+				o[ p[i] ]= room[ p[i] ]
+			return o;
+		}
 	}
 ]);
 
@@ -107,6 +148,8 @@ cgtControllers.controller('roomCtrl', ['$scope','$http',
 	function($scope,$http) {
 
 		var op = $scope.op;
+
+		$scope.label = "room"
 
 		$scope.createTrip = function( name , city , date ){
 
@@ -126,11 +169,40 @@ cgtControllers.controller('roomCtrl', ['$scope','$http',
 		$scope.url = function(){
 			return "/groups/"+( $scope.room.hash )
 		}
+
+		$scope.parse = function( room ){
+			var p =[ 'name','date','city' ],o={};
+			for(var i=p.length;i--;)
+				o[ p[i] ]= room[ p[i] ]
+			return o;
+		}
+	}
+]);
+
+cgtControllers.controller('acomodationCtrl', ['$scope','$http',
+	function($scope,$http) {
+
+		$scope.label = "acomodation"
+
+		var op = $scope.op;
+
+		$scope.url = function(){
+			return "/groups/"+( $scope.room.hash ) +"/trips/"+$scope.trip.id+"/acomodations/"+$scope.acomodation.id
+		}
+
+		$scope.parse = function( room ){
+			var p =[ 'name','date','city' ],o={};
+			for(var i=p.length;i--;)
+				o[ p[i] ]= room[ p[i] ]
+			return o;
+		}
 	}
 ]);
 
 cgtControllers.controller('tripCtrl', ['$scope','$http',
 	function($scope,$http) {
+
+		$scope.label = "trip"
 
 		var op = $scope.op;
 
