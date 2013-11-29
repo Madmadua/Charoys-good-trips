@@ -94,7 +94,7 @@
       <!-- Search Menu -->
 	  <div class="row">
 		  <div class="cgt-block cgt-block-gris">
-			<form role="form" ng-submit="search()">
+			<form role="form" id="search-form" ng-submit="search()">
 			  <div class="col-lg-4">
 				<input type="text" class="form-control input-lg" id="search_location" ng-model="search_location" placeholder="Where do you want to go ?" autocomplete="off" />
 			  </div>
@@ -136,7 +136,7 @@
 
 			  <div class="col-lg-2">
 				<input type="submit" class="hidden">
-				<button type="button" ng-click="search()" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-search"></span> Search</button>
+				<button type="button" id="search-submit" ng-click="search()" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-search"></span> Search</button>
 			  </div>
 			</form>
 		  </div>
@@ -171,7 +171,6 @@
           <img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
           <span>Voyager en voiture</span>
           <button class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
-          <div id="EmplacementItineraireCarte" class="cache"></div>
           <div id="EmplacementItineraireTexte" ng-class="{cache : !details}"></div>
         </div>
       </div>
@@ -282,107 +281,139 @@
     <script src="js/app.js"></script>
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
-		function initialiser() {
-			var latlng = new google.maps.LatLng(46.779231, 6.659431);
-			//objet contenant des propriétés avec des identificateurs prédéfinis dans Google Maps permettant
-			//de définir des options d'affichage de notre carte
-			var options = {
-				center: latlng,
-				zoom: 19,
-				mapTypeId: google.maps.MapTypeId.ROADMAP
-			};
-			
-			//constructeur de la carte qui prend en paramêtre le conteneur HTML
-			//dans lequel la carte doit s'afficher et les options
-			var carte = new google.maps.Map(document.getElementById("carte"), options);
-		}
-		
-		var itineraireRequete = {
-			origin: "rue Nationale, Tours, FR",
-			destination: new google.maps.LatLng(47.129172,0.998468),
-			travelMode: google.maps.TravelMode.DRIVING
-		}
 
-		function initialisation(){
-			var centreCarte = new google.maps.LatLng(47.389982, 0.688877);
-			var optionsCarte = {
-				zoom: 8,
-				center: centreCarte,
-				mapTypeId: google.maps.MapTypeId.ROADMAP
-			}
-			var itineraireCarte = new google.maps.Map(document.getElementById("EmplacementItineraireCarte"), optionsCarte);
-			/**
-			 * Moteur de rendu
-			 */
-			var optionsItineraireAffichage = {
-				map: itineraireCarte,
-				panel: document.getElementById("EmplacementItineraireTexte")
-			}
-			var itineraireAffichage = new google.maps.DirectionsRenderer(optionsItineraireAffichage);
-			/**
-			 * Service itinéraire
-			 */
-			var itineraireService = new google.maps.DirectionsService();
-			/**
-			 * Objet littéral
-			 */
-			 var itineraireRequete = {
-				origin: "Nancy, FR",
-				destination: "Paris, FR",
-				travelMode: google.maps.TravelMode.DRIVING
-			}
-			/**
-			 * Envoie la requête vers les serveurs Google (Asynchrone)
-			 */
-			itineraireService.route(itineraireRequete, function(itineraireResultat, itineraireCodeStatut) {
-				/**
-				 * Si le résultat est valide on demande au moteur de rendu
-				 * d'utiliser ce résultat pour mettre à jour l'affichage
-				 * de l'itinéraire ( carte + roadbook)
-				 */
-				if (itineraireCodeStatut === google.maps.DirectionsStatus.OK) {
-					 itineraireAffichage.setDirections(itineraireResultat);
-					 console.log(itineraireResultat.routes[0].legs[0].distance.text);
-					 console.log(itineraireResultat.routes[0].legs[0].duration.text);
-				/**
-				 * Sinon on affiche le code erreur
-				 */
-				}else{
-					alert('Erreur : ' + itineraireCodeStatut);
-				}
-			});
-		}
-		google.maps.event.addDomListener(window, 'load', initialisation)
+
 	</script>
 
     <script>
     (function() {
 
+      var cgt_map = {};
 
+      cgt_map.Utils = {
+        options: {
+          zoom: 5,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          center: new google.maps.LatLng(48.85, 2.35)
+        },
 
+        init: function() {
+          this.geo = new google.maps.Geocoder();
+          this.map = new google.maps.Map(document.getElementById('cgt-gl-map'), this.options)
+        },
 
-      var options = {
-        zoom: 5,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        _update: function(location) {
+          cgt_map.Utils.geo.geocode({
+            'address': location
+          },
+          function(results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+              cgt_map.Utils.map.setCenter(results[0].geometry.location);
+
+              if (cgt_map.Utils.marker) {
+                cgt_map.Utils.marker.setMap(null);
+              }
+
+              cgt_map.Utils.marker = new google.maps.Marker({
+                map: cgt_map.Utils.map,
+                position: results[0].geometry.location
+              });
+            }
+          });
+        } 
       };
 
-      var geo = new google.maps.Geocoder();
-      var map = new google.maps.Map(document.getElementById('cgt-gl-map'), options);
-    
-      var city = 'Paris';      
+      cgt_map.Utils.init();
 
-      geo.geocode({
-        'address': city
-      },
-      function(results, status) {
-        if (status == google.maps.GeocoderStatus.OK) {
-          map.setCenter(results[0].geometry.location);
 
-          var marker = new google.maps.Marker({
-            map: map,
-            position: results[0].geometry.location
+      cgt_map.Itineraire = {
+        options_velo: {
+          map: cgt_map.Utils.map,
+          panel: document.getElementById("itineraire_velo_texte")
+        },
+
+        options_voiture: {
+          map: cgt_map.Utils.map,
+          panel: document.getElementById("itineraire_voiture_texte")
+        },      
+
+        init: function () {
+          this.itineraireService = new google.maps.DirectionsService();
+          this.itineraireAffichage_Velo = new google.maps.DirectionsRenderer(this.options_velo);
+          this.itineraireAffichage_Voiture = new google.maps.DirectionsRenderer(this.options_voiture);
+        },
+        
+        _update: function(location) {
+  
+          var itineraireRequete_Velo = {
+            origin: "Nancy, FR",
+            destination: location,
+            travelMode: google.maps.TravelMode.BICYCLING
+          };
+
+          var itineraireRequete_Voiture = {
+            origin: "Nancy, FR",
+            destination: location,
+            travelMode: google.maps.TravelMode.DRIVING 
+          }          
+
+
+          this.itineraireService.route(itineraireRequete_Voiture, function(itineraireResultat, itineraireCodeStatut) {
+            if (itineraireCodeStatut === google.maps.DirectionsStatus.OK) {
+              cgt_map.Itineraire.itineraireAffichage_Voiture.setDirections(itineraireResultat);
+              //console.log(itineraireResultat.routes[0].legs[0].distance.text);
+              //console.log(itineraireResultat.routes[0].legs[0].duration.text);
+            }
+            else
+            {
+              document.getElementById('voyage_voiture').innerHTML = "Ce voyage n'est pas possible en voiture";
+              document.getElementById('button_voyager').disabled = true;
+              document.getElementById('button_voyager').className = "reduire";
+            }
+          });
+
+
+          this.itineraireService.route(itineraireRequete_Velo, function(itineraireResultat, itineraireCodeStatut) {
+            if (itineraireCodeStatut === google.maps.DirectionsStatus.OK) {
+              //console.log(itineraireResultat.routes[0].legs[0].distance.text);
+              //console.log(itineraireResultat.routes[0].legs[0].duration.text);
+            }
+            else
+            {
+              document.getElementById('voyage_voiture').innerHTML = "Ce voyage n'est pas possible en voiture";
+              document.getElementById('button_voyager').disabled = true;
+              document.getElementById('button_voyager').className = "reduire";
+            }
           });
         }
+      };
+
+      cgt_map.Itineraire.init();
+
+
+
+
+
+
+
+
+
+
+
+
+
+      $('#search-form').submit(function() {
+        var location = $('#search_location').val();
+
+        cgt_map.Utils._update(location);
+        cgt_map.Itineraire._update(location);
+      });
+
+      $('#search-submit').click(function() {
+        var location = $('#search_location').val();
+
+        cgt_map.Utils._update(location);
+        cgt_map.Itineraire._update(location);
       });
 
     })();
