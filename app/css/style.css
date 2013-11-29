@@ -95,8 +95,8 @@ body {
 }
 .reduire{
 	background: url("/img/moins.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    height: 111px;
-    width: 111px;
+    height: 81px;
+    width: 81px;
 	border:none;
 	float: right;
 }
