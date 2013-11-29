@@ -6,12 +6,38 @@ var cgtControllers = angular.module('cgtControllers' , []);
 
 cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 	function($scope, $http) {
-
+		
 	    $scope.search = function() {
-			$http.post('/proxy', {'url': 'http://api.outpost.travel/placeRentals?city=' + $scope.search_location}).success(function(data) {
+
+	    	var str = $scope.search_location;
+
+	    	if (str.indexOf('-') == -1) {
+	    		var res = str.split(' ');
+
+	    		str = '';
+
+	    		for (var i = 0; i < res.length; i++) {
+	    			str += res[i].charAt(0).toUpperCase() + res[i].slice(1) + ' ';
+	    		}
+
+	    		str = str.substring(0, str.length - 1);
+	    	}
+	    	else {
+	    		str = str.charAt(0).toUpperCase() + str.slice(1);
+	    	}
+
+	    	// max_results = 5
+	    	
+			$http.post('/proxy', {'url': 'http://api.outpost.travel/placeRentals?city=' + str}).success(function(data) {
 				$scope.items = data.items.splice(0,5);
+				/*$scope.items.forEach(function(item) {
+			      alert(item);
+			      item.latLng = item.latLng.replace('[', "(");
+			    });*/
 			});
 		};
+		
+		$scope.details=false;
 	}
 ]);
 
