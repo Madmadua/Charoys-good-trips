@@ -17,3 +17,4 @@ bower_components/*
 !bower_components/jquery/jquery.min.js
 !bower_components/jquery-ui/ui/minified/jquery-ui.min.js
 !bower_components/bootstrap/dist/*
+!bower_components/mustache/mustache.js

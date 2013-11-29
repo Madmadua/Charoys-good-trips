@@ -24,7 +24,7 @@ httpServer = http.createServer(function(req, res) {
     res.end('Hello World!');
 });
 
-httpServer.listen(8080);
+httpServer.listen(5000);
 
 var io = require('socket.io').listen(httpServer);
 
