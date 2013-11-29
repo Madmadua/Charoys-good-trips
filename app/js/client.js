@@ -8,7 +8,7 @@
 	$('#msg_tpl').remove();
 
 
-	var socket = io.connect('http://localhost:5000');
+	var socket = io.connect();
 	var room = "abc123";
 
 

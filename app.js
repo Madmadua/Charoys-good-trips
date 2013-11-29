@@ -1,3 +1,4 @@
+
 var   express = require('express')
     , app = express()
     , http = require('http')
@@ -14,103 +15,7 @@ app.use(express.session({secret: 'isecretlyeatfish'}));
 
 
 
-// debut chat
 
-var http = require('http');
-
-
-
-httpServer = http.createServer(function(req, res) {
-    res.end('Hello World!');
-});
-
-httpServer.listen(5000);
-
-var io = require('socket.io').listen(httpServer);
-
-
-
-var users = {};
-var messages = [];
-var history = 10;
-
-
-
-
-
-io.sockets.on('connection', function (socket) {
-    console.log('Nouvelle demande...');
-
-    var me = false;
-    var room = "public";
-
-    socket.on('login', function(user) {
-        me = user;
-        me.id = user.username.replace('.', '-');
-        //me.hash = md5(user.password);
-        socket.join(user.room);
-
-        console.log(me);
-
-        // Permet d'initialiser la liste des co en début
-        for (var k in users) {
-            if(users[k].room == me.room){
-                socket.emit('new_user', users[k]);
-            }
-        }
-
-        for (var k in messages) {
-            if(messages[k].user.room == me.room){
-                socket.emit('new_message', messages[k]);
-            }
-        }
-
-
-        // socket.emit('newuser');
-        // N'affecte que la socket actuelle
-
-        // socket.broadcast.emit('newuser');
-        // Affecte tous les utilisateurs sauf l'utilisateur courant
-
-        users[me.id] = me;
-
-        socket.emit('logged');
-        io.sockets.in(me.room).emit('new_user', me);
-        // Affecte tous les utilisateurs, y compris l'utilisateur courant
-    });
-
-
-
-    socket.on('disconnect', function() {
-        if (!me) {
-            return false;
-        }
-
-        delete users[me.id];
-        io.sockets.in(me.room).emit('logout_user', me);
-    });
-
-
-
-
-
-    socket.on('new_message', function(message) {
-        message.user = me;
-        date = new Date();
-        message.h = date.getHours();
-        message.m = date.getMinutes();
-
-
-        messages.push(message);
-        if (messages.length > history) {
-            messages.shift();
-        }
-
-        io.sockets.in(me.room).emit('new_message', message);
-    });
-});
-
-// fin chat
 
 
 
@@ -600,6 +505,110 @@ app.post('/proxy', function (req, res) {
     });
 });
 
+
+
+
+
+// debut chat
+
+var http = require('http');
+
+
+
+httpServer = http.createServer(function(req, res) {
+    res.end('Hello World!');
+});
+
+httpServer.listen( process.env.PORT || 5000 );
+
+var io = require('socket.io').listen(httpServer);
+
+
+
+var users = {};
+var messages = [];
+var history = 10;
+
+
+
+
+
+io.sockets.on('connection', function (socket) {
+    console.log('Nouvelle demande...');
+
+    var me = false;
+    var room = "public";
+
+    socket.on('login', function(user) {
+        me = user;
+        me.id = user.username.replace('.', '-');
+        //me.hash = md5(user.password);
+        socket.join(user.room);
+
+        console.log(me);
+
+        // Permet d'initialiser la liste des co en début
+        for (var k in users) {
+            if(users[k].room == me.room){
+                socket.emit('new_user', users[k]);
+            }
+        }
+
+        for (var k in messages) {
+            if(messages[k].user.room == me.room){
+                socket.emit('new_message', messages[k]);
+            }
+        }
+
+
+        // socket.emit('newuser');
+        // N'affecte que la socket actuelle
+
+        // socket.broadcast.emit('newuser');
+        // Affecte tous les utilisateurs sauf l'utilisateur courant
+
+        users[me.id] = me;
+
+        socket.emit('logged');
+        io.sockets.in(me.room).emit('new_user', me);
+        // Affecte tous les utilisateurs, y compris l'utilisateur courant
+    });
+
+
+
+    socket.on('disconnect', function() {
+        if (!me) {
+            return false;
+        }
+
+        delete users[me.id];
+        io.sockets.in(me.room).emit('logout_user', me);
+    });
+
+
+
+
+
+    socket.on('new_message', function(message) {
+        message.user = me;
+        date = new Date();
+        message.h = date.getHours();
+        message.m = date.getMinutes();
+
+
+        messages.push(message);
+        if (messages.length > history) {
+            messages.shift();
+        }
+
+        io.sockets.in(me.room).emit('new_message', message);
+    });
+});
+
+// fin chat
+
+
+
 // index page
 app.get('/', function (req, res) {
     res.sendfile(__dirname + '/app/index.html');
@@ -609,5 +618,3 @@ app.get('/', function (req, res) {
 app.get( /(.*)$/, function (req, res) {
     res.sendfile(__dirname + '/app/'+ req.params[0] );
 });
-
-
