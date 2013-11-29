@@ -176,20 +176,25 @@
           <img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
 
           <span id="voyage_voiture">Voyager en voiture</span>
-          <button id="button_voyager" class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
-          <div id="itineraire-voiture-texte" ng-class="{cache : !details}"></div>
+
+          <button id="button_voyager" class="details" ng-click="details_voiture=!details_voiture" ng-class="{reduire : details_voiture}"></button>
+          <div id="itineraire-voiture-texte" ng-class="{cache : !details_voiture}"></div>
         </div>
       </div>
 	  
-	  <div class="row">
+    
+	    <div class="row">
         <div class="cgt-block cgt-block-blanc voyage_velo" ng-class="{cache : !search_location}">
           <img src="./img/icone-voiture.png" alt="velo" class="img-voiture"/>
+
           <span id="voyage_velo">Voyager en vélo</span>
-          <button id="button_voyager_velo" class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
-          <div id="itineraire-velo-texte" ng-class="{cache : !details}"></div>
+
+          <button id="button_voyager_velo" class="details" ng-click="details_velo=!details_velo" ng-class="{reduire : details_velo}"></button>
+          <div id="itineraire-velo-texte" ng-class="{cache : !details_velo}"></div>
 
         </div>
       </div>
+    
 
 
       <div class="row">
@@ -342,13 +347,12 @@
 
       cgt_map.Itineraire = {
         options_velo: {
-          map: cgt_map.Utils.map,
-          panel: document.getElementById("itineraire_velo_texte")
+          panel: document.getElementById("itineraire-velo-texte")
         },
 
         options_voiture: {
           map: cgt_map.Utils.map,
-          panel: document.getElementById("itineraire_voiture_texte")
+          panel: document.getElementById("itineraire-voiture-texte")
         },      
 
         init: function () {
@@ -369,14 +373,29 @@
             origin: "Nancy, FR",
             destination: location,
             travelMode: google.maps.TravelMode.DRIVING 
-          }          
+          };   
+
+
+          this.itineraireService.route(itineraireRequete_Velo, function(itineraireResultat, itineraireCodeStatut) {
+            if (itineraireCodeStatut === google.maps.DirectionsStatus.OK) {
+              cgt_map.Itineraire.itineraireAffichage_Velo.setDirections(itineraireResultat);
+              //console.log(itineraireResultat.routes[0].legs[0].distance.text);
+              //console.log(itineraireResultat.routes[0].legs[0].duration.text);
+            }
+            else
+            {
+              document.getElementById('voyage_velo').innerHTML = "Ce voyage n'est pas possible en voiture";
+              document.getElementById('button_voyager_velo').disabled = true;
+              document.getElementById('button_voyager_velo').className = "reduire";
+            }
+          });
 
 
           this.itineraireService.route(itineraireRequete_Voiture, function(itineraireResultat, itineraireCodeStatut) {
             if (itineraireCodeStatut === google.maps.DirectionsStatus.OK) {
               cgt_map.Itineraire.itineraireAffichage_Voiture.setDirections(itineraireResultat);
-              //console.log(itineraireResultat.routes[0].legs[0].distance.text);
-              //console.log(itineraireResultat.routes[0].legs[0].duration.text);
+              console.log(itineraireResultat.routes[0].legs[0].distance.text);
+              console.log(itineraireResultat.routes[0].legs[0].duration.text);
             }
             else
             {
@@ -386,19 +405,6 @@
             }
           });
 
-
-          this.itineraireService.route(itineraireRequete_Velo, function(itineraireResultat, itineraireCodeStatut) {
-            if (itineraireCodeStatut === google.maps.DirectionsStatus.OK) {
-              //console.log(itineraireResultat.routes[0].legs[0].distance.text);
-              //console.log(itineraireResultat.routes[0].legs[0].duration.text);
-            }
-            else
-            {
-              document.getElementById('voyage_voiture').innerHTML = "Ce voyage n'est pas possible en voiture";
-              document.getElementById('button_voyager').disabled = true;
-              document.getElementById('button_voyager').className = "reduire";
-            }
-          });
         }
       };
 

@@ -79,12 +79,9 @@ body {
 	display: none;
 }
 
-#EmplacementItineraireCarte{
-	width:50%;
-	height: 400px;
-}
 
-#EmplacementItineraireTexte {
+#itineraire-velo-texte,
+#itineraire-voiture-texte {
 	height: 50%;
 	padding: 15px;
 }

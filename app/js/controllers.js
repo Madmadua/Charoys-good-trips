@@ -65,7 +65,8 @@ cgtControllers.controller('cgtCtrl', ['$scope', '$http',
 			});
 		};
 		
-		$scope.details=false;
+		$scope.details_velo = false;
+		$scope.details_voiture = false;
 	}
 ]);
 
