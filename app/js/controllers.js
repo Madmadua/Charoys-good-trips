@@ -94,11 +94,9 @@ cgtControllers.controller('cRessource', ['$scope','$http',
 				})
 			},
 
-			save:function( self , url ){
-
-				if( ! url )
-					url = $scope.url()
-				$http({ data : $scope.parse(self) , method: 'PUT', url: url })
+			save:function( self , all ){
+				var url = $scope.url()
+				$http({ data : all ? self : $scope.parse(self) , method: 'PUT', url: url })
 				.success(function(data, status, headers, config) {
 					op.hydrate( self , data )
 				})
@@ -188,7 +186,7 @@ cgtControllers.controller('acomodationCtrl', ['$scope','$http',
 		var op = $scope.op;
 
 		$scope.url = function(){
-			return "/groups/"+( $scope.room.hash ) +"/trips/"+$scope.trip.id+"/acomodations/"+$scope.acomodation.id
+			return "/groups/"+( $scope.room.hash ) +"/trips/"+$scope.trip.id+"/acomodations"+( $scope.acomodation.id ? '/'+$scope.acomodation.id : '' )
 		}
 
 		$scope.parse = function( room ){
@@ -208,7 +206,7 @@ cgtControllers.controller('tripCtrl', ['$scope','$http',
 		var op = $scope.op;
 
 		$scope.url = function(){
-			return "/groups/"+( $scope.room.hash ) +"/trips/"+$scope.trip.id
+			return "/groups/"+( $scope.room.hash ) +"/trips/"+( $scope.trip.id ? '/'+$scope.trip.id : '' )
 		}
 	}
 ]);

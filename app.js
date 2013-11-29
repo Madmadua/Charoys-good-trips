@@ -20,7 +20,37 @@ var store=(function(){
 
     var groups = {};
 
+    var Acomodation = function Trip( options ){
 
+        this.authorId = options.authorId
+        this.name = options.name || 'unamed'
+        this.id = 'trip-'+( uid ++ )
+        this.city = 'Nancy'
+        this.date = new Date()
+        this.transports = []
+        this.acomodations = []
+
+    }
+    Acomodation.prototype={
+        toJSON:function(){
+            return JSON.stringify( this )
+        },
+        parse:function(attr){
+            return attr
+        },
+        set:function(key,value,options){
+            if( typeof(key)=='object' )
+                options=value;
+            else
+                key=[value]
+
+            if( options || options.parse )
+                key = this.parse( key )
+
+            for( var i in key )
+                this[ i ] = key[ i ];
+        },
+    }
 
     var Trip = function Trip( options ){
 
@@ -388,6 +418,74 @@ app.put('/groups/:groupHash/trips/:tripId', function (req, res) {
     trip.set( req.body , {'parse':true} )
 
     res.send( trip ? trip.toJSON() : '{}' );
+});
+
+
+/**
+ * acomodations related request
+ */
+app.put('/groups/:groupHash/trips/:tripId/acomodations', function (req, res) {
+     var grp = store.getGroup({
+        hash: req.params.groupHash
+    })
+
+    if( !grp )
+        return res.send( '{}' );
+
+    var trip = grp.getTrip({
+        id : req.params.tripId,
+    })
+
+    if( !trip )
+        return res.send( '{}' );
+
+    var aco = trip.createAcomodation( rep.body )
+
+    res.send( aco ? aco.toJSON() : '{}' );
+});
+app.get('/groups/:groupHash/trips/:tripId/acomodations/:acoId', function (req, res) {
+     var grp = store.getGroup({
+        hash: req.params.groupHash
+    })
+
+    if( !grp )
+        return res.send( '{}' );
+
+    var trip = grp.getTrip({
+        id : req.params.tripId,
+    })
+
+    if( !trip )
+        return res.send( '{}' );
+
+    var aco = trip.getAco({
+        id : req.params.acoId,
+    })
+
+    res.send( aco ? aco.toJSON() : '{}' );
+});
+app.put('/groups/:groupHash/trips/:tripId/acomodations/:acoId', function (req, res) {
+     var grp = store.getGroup({
+        hash: req.params.groupHash
+    })
+
+    if( !grp )
+        return res.send( '{}' );
+
+    var trip = grp.getTrip({
+        id : req.params.tripId,
+    })
+
+    if( !trip )
+        return res.send( '{}' );
+
+    var aco = trip.getAco({
+        id : req.params.acoId,
+    })
+
+    aco.set( req.body , {'parse':true} )
+
+    res.send( aco ? aco.toJSON() : '{}' );
 });
 
 
