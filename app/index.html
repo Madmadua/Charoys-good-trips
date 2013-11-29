@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="cgtApp">
+<html ng-app="cgtApp" ng-controller="cRessource">
   <head>
     <title>Charoy's Good Trip</title>
 
@@ -21,7 +21,7 @@
 
   </head>
 
-  <body ng-controller="cgtCtrl">
+  <body ng-controller="cgtCtrl" >
 
     <!-- Navbar -->
     <!--
@@ -59,20 +59,15 @@
     -->
     <!-- Navbar -->
 
-
-    <!-- Container -->
-    <div class="container">
-
-      <div ng-controller="cRessource">
-        <div ng-controller="atriumCtrl">
+    <div ng-controller="atriumCtrl">
 
           <input type="text" ng-model="hashRoom"></input>
           <button ng-click="readRoom(hashRoom)">join Room</button>
           <button ng-click="createRoom()">create Room</button>
 
-        </div>
+    </div>
 
-        <div ng-controller="roomCtrl">
+     <div ng-controller="roomCtrl">
           <span>{{room.hash}}</span>
           <input type="text" ng-model="room.name" ng-change="op.save(room,url())"></input>
 
@@ -80,15 +75,25 @@
 
           <div ng-controller="tripCtrl" ng-repeat="trip in room.trips">
             trip name : <input type="text" ng-model="trip.name" ng-change="op.save(trip,url())"></input> | <input type="text" ng-model="trip.city" ng-change="op.save(trip,url())"></input>
+
+            <div ng-controller="acomodationCtrl" ng-repeat="acomodation in trip.acomodations">
+              <span>&nbsp;&nbsp;&nbsp;{{acomodation.price}}</span>
+            </div>
           </div>
 
           <div ng-repeat="user in room.users">
              user name : <input type="text" ng-model="user.name"></input>
           </div>
 
-        </div>
+    </div>
+
+    <!-- Container -->
+    <div class="container" ng-controller="roomCtrl">
+
         
-      </div>
+
+       
+        
       
 
       <!-- Search Menu -->
@@ -169,9 +174,20 @@
       <div class="row">
         <div class="cgt-block cgt-block-blanc voyage_voiture" ng-class="{cache : !search_location}">
           <img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
-          <span>Voyager en voiture</span>
-          <button class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
-          <div id="EmplacementItineraireTexte" ng-class="{cache : !details}"></div>
+
+          <span id="voyage_voiture">Voyager en voiture</span>
+          <button id="button_voyager" class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
+          <div id="itineraire-voiture-texte" ng-class="{cache : !details}"></div>
+        </div>
+      </div>
+	  
+	  <div class="row">
+        <div class="cgt-block cgt-block-blanc voyage_velo" ng-class="{cache : !search_location}">
+          <img src="./img/icone-voiture.png" alt="velo" class="img-voiture"/>
+          <span id="voyage_velo">Voyager en vélo</span>
+          <button id="button_voyager_velo" class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
+          <div id="itineraire-velo-texte" ng-class="{cache : !details}"></div>
+
         </div>
       </div>
 
@@ -209,7 +225,7 @@
         </div>
       </div>
 
-
+      
       <!-- Template Item -->
       <div class="row">
         <div ng-repeat="item in items" class="cgt-block cgt-block-blanc">
@@ -279,11 +295,9 @@
     <script src="js/services.js"></script>
     <script src="js/filters.js"></script>
     <script src="js/app.js"></script>
-	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript">
 
+	  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
-	</script>
 
     <script>
     (function() {
