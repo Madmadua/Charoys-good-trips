@@ -10,6 +10,7 @@ body {
 .cgt-block-gris {
     background-color:#F5F5F5;
     border: 1px solid #D8D8D8;
+	display: table;
 }
 
 
@@ -37,6 +38,7 @@ body {
 
 .cgt-block {
     z-index: 2;
+	width: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -111,4 +113,8 @@ body {
 
 .header-destination{
 	padding-left:15px;
+}
+
+.desc-container ul{
+	list-style:none;
 }
