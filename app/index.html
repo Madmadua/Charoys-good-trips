@@ -174,10 +174,18 @@
       <div class="row">
         <div class="cgt-block cgt-block-blanc voyage_voiture" ng-class="{cache : !search_location}">
           <img src="./img/icone-voiture.png" alt="voiture" class="img-voiture"/>
-          <span>Voyager en voiture</span>
-          <button class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
-          <div id="EmplacementItineraireCarte" class="cache"></div>
-          <div id="EmplacementItineraireTexte" ng-class="{cache : !details}"></div>
+          <span id="voyage_voiture">Voyager en voiture</span>
+          <button id="button_voyager" class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
+          <div id="itineraire-voiture-texte" ng-class="{cache : !details}"></div>
+        </div>
+      </div>
+	  
+	  <div class="row">
+        <div class="cgt-block cgt-block-blanc voyage_velo" ng-class="{cache : !search_location}">
+          <img src="./img/icone-voiture.png" alt="velo" class="img-voiture"/>
+          <span id="voyage_velo">Voyager en vélo</span>
+          <button id="button_voyager_velo" class="details" ng-click="details=!details" ng-class="{reduire : details}"></button>
+          <div id="itineraire-velo-texte" ng-class="{cache : !details}"></div>
         </div>
       </div>
 
@@ -301,12 +309,6 @@
 			//dans lequel la carte doit s'afficher et les options
 			var carte = new google.maps.Map(document.getElementById("carte"), options);
 		}
-		
-		var itineraireRequete = {
-			origin: "rue Nationale, Tours, FR",
-			destination: new google.maps.LatLng(47.129172,0.998468),
-			travelMode: google.maps.TravelMode.DRIVING
-		}
 
 		function initialisation(){
 			var centreCarte = new google.maps.LatLng(47.389982, 0.688877);
@@ -353,11 +355,13 @@
 				 * Sinon on affiche le code erreur
 				 */
 				}else{
-					alert('Erreur : ' + itineraireCodeStatut);
+					document.getElementById('voyage_voiture').innerHTML = "Ce voyage n'est pas possible en voiture";
+					document.getElementById('button_voyager').disabled = true;
+					document.getElementById('button_voyager').className = "reduire";
 				}
 			});
 		}
-		google.maps.event.addDomListener(window, 'load', initialisation)
+		google.maps.event.addDomListener(window, 'load', initialisation);
 	</script>
 
     <script>
